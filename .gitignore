@@ -1,3 +1,7 @@
-data/*
+data/data
+data/mapped
+data/seqs
+data/reference
+data/metaseq-example/
 
 temp/*

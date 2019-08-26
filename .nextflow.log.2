@@ -1,0 +1,300 @@
+Aug-09 14:05:25.812 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/chipseq --singleEnd --outdir data/results --seq_center DFCI --email jkobject@gmail.com --skipDiffAnalysis --narrowPeak --design singleend.csv --max_cpus 8 --max_memory 12.GB --genome GRCh37 -profile docker
+Aug-09 14:05:25.951 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.07.0
+Aug-09 14:05:26.761 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 14:05:26.771 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 14:05:26.864 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 14:05:26.864 [main] INFO  nextflow.cli.CmdRun - Launching `nf-core/chipseq` [confident_colden] - revision: 333bba3345 [master]
+Aug-09 14:05:27.296 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/jeremie/.nextflow/assets/nf-core/chipseq/nextflow.config
+Aug-09 14:05:27.297 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/jeremie/.nextflow/assets/nf-core/chipseq/nextflow.config
+Aug-09 14:05:27.305 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Aug-09 14:05:27.867 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [uppmax_devel, bigpurple, uppmax, docker, gis, ccga, conda, singularity, munin, prince, czbiohub_aws, hebbe, cfc, uzh, debug, test, ccga_dx, crick, czbiohub_aws_highpriority, kraken, phoenix, shh, mendel, pasteur, uct_hex, awsbatch, binac]
+Aug-09 14:05:27.918 [main] DEBUG nextflow.Session - Session uuid: 81fef090-be9c-4eb0-8e8c-e938d61dbdd5
+Aug-09 14:05:27.918 [main] DEBUG nextflow.Session - Run name: confident_colden
+Aug-09 14:05:27.919 [main] DEBUG nextflow.Session - Executor pool size: 8
+Aug-09 14:05:27.932 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.07.0 build 5106
+  Created: 27-07-2019 13:22 UTC 
+  System: Linux 4.9.0-9-amd64
+  Runtime: Groovy 2.5.6 on OpenJDK 64-Bit Server VM 1.8.0_222-8u222-b10-1~deb9u1-b10
+  Encoding: UTF-8 (UTF-8)
+  Process: 9230@instance-1 [10.142.0.2]
+  CPUs: 8 - Mem: 15.7 GB (12.9 GB) - Swap: 20 GB (20 GB)
+Aug-09 14:05:27.947 [main] DEBUG nextflow.Session - Work-dir: /home/jeremie/AMLproject/work [ext2/ext3]
+Aug-09 14:05:28.149 [main] DEBUG nextflow.Session - Session start invoked
+Aug-09 14:05:28.153 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /home/jeremie/AMLproject/data/results/pipeline_info/execution_trace.txt
+Aug-09 14:05:29.000 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-09 14:05:29.041 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Aug-09 14:05:29.052 [main] DEBUG nextflow.file.FileHelper - AWS S3 config details: {}
+Aug-09 14:05:31.138 [main] INFO  nextflow.Nextflow - [2m----------------------------------------------------[0m
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/chipseq v1.0.0[0m
+[2m----------------------------------------------------[0m
+
+Aug-09 14:05:31.142 [main] INFO  nextflow.Nextflow - Run Name            : confident_colden
+Data Type           : Single-End
+Design File         : singleend.csv
+Genome              : GRCh37
+Fasta File          : s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta/genome.fa
+GTF File            : s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf
+BWA Index           : s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/BWAIndex/genome.fa
+Blacklist BED       : /home/jeremie/.nextflow/assets/nf-core/chipseq/assets/blacklists/GRCh37-blacklist.bed
+MACS2 Genome Size   : 2.7e9
+Min Consensus Reps  : 1
+MACS2 Narrow Peaks  : Yes
+Trim R1             : 0 bp
+Trim R2             : 0 bp
+Trim 3' R1          : 0 bp
+Trim 3' R2          : 0 bp
+Sequencing Center   : DFCI
+Fragment Size       : 200 bp
+Fingerprint Bins    : 500000
+Save Genome Index   : No
+Skip Diff Analysis  : Yes
+Max Resources       : 12.GB memory, 8 cpus, 10d time per job
+Container           : docker - nfcore/chipseq:1.0.0
+Output Dir          : data/results
+Launch Dir          : /home/jeremie/AMLproject
+Working Dir         : /home/jeremie/AMLproject/work
+Script Dir          : /home/jeremie/.nextflow/assets/nf-core/chipseq
+User                : jeremie
+Config Profile      : docker
+E-mail Address      : jkobject@gmail.com
+MultiQC Max Size    : 25 MB
+Aug-09 14:05:31.143 [main] INFO  nextflow.Nextflow - [2m----------------------------------------------------[0m
+Aug-09 14:05:31.199 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.199 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.203 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-09 14:05:31.207 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15.7 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Aug-09 14:05:31.245 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > checkDesign -- maxForks: 8
+Aug-09 14:05:31.332 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches label `process_low` for process with name makeGeneBED
+Aug-09 14:05:31.334 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.334 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.335 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeGeneBED -- maxForks: 8
+Aug-09 14:05:31.340 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.341 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.343 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeTSSBED -- maxForks: 8
+Aug-09 14:05:31.349 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.349 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.350 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeGenomeFilter -- maxForks: 8
+Aug-09 14:05:31.366 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name fastqc
+Aug-09 14:05:31.368 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.368 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.370 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > fastqc -- maxForks: 8
+Aug-09 14:05:31.389 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name trimGalore
+Aug-09 14:05:31.389 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.389 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.391 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > trimGalore -- maxForks: 8
+Aug-09 14:05:31.411 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name bwaMEM
+Aug-09 14:05:31.412 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.412 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.413 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > bwaMEM -- maxForks: 8
+Aug-09 14:05:31.418 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name sortBAM
+Aug-09 14:05:31.418 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.420 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > sortBAM -- maxForks: 8
+Aug-09 14:05:31.436 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name mergeBAM
+Aug-09 14:05:31.437 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.437 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.438 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > mergeBAM -- maxForks: 8
+Aug-09 14:05:31.445 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name filterBAM
+Aug-09 14:05:31.445 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.445 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.446 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > filterBAM -- maxForks: 8
+Aug-09 14:05:31.455 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches label `process_low` for process with name preseq
+Aug-09 14:05:31.455 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.455 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.456 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > preseq -- maxForks: 8
+Aug-09 14:05:31.461 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name collectMultipleMetrics
+Aug-09 14:05:31.462 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.462 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.463 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > collectMultipleMetrics -- maxForks: 8
+Aug-09 14:05:31.478 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name bigWig
+Aug-09 14:05:31.479 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:31.479 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.479 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.480 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > bigWig -- maxForks: 8
+Aug-09 14:05:31.485 [Task submitter] INFO  nextflow.Session - [6c/e6047e] Submitted process > checkDesign (singleend.csv)
+Aug-09 14:05:31.487 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name plotProfile
+Aug-09 14:05:31.488 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.488 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.489 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > plotProfile -- maxForks: 8
+Aug-09 14:05:31.495 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name phantomPeakQualTools
+Aug-09 14:05:31.496 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.496 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.497 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > phantomPeakQualTools -- maxForks: 8
+Aug-09 14:05:31.525 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name plotFingerprint
+Aug-09 14:05:31.526 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.526 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.529 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > plotFingerprint -- maxForks: 8
+Aug-09 14:05:31.542 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name macsCallPeak
+Aug-09 14:05:31.543 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.543 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.544 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > macsCallPeak -- maxForks: 8
+Aug-09 14:05:31.553 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name annotatePeaks
+Aug-09 14:05:31.554 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.554 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.555 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > annotatePeaks -- maxForks: 8
+Aug-09 14:05:31.563 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name peakQC
+Aug-09 14:05:31.564 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.564 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.565 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > peakQC -- maxForks: 8
+Aug-09 14:05:31.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name createConsensusPeakSet
+Aug-09 14:05:31.579 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.579 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.580 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > createConsensusPeakSet -- maxForks: 8
+Aug-09 14:05:31.585 [Actor Thread 5] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=24; maxQueueSize=72; keepAlive=1m
+Aug-09 14:05:31.587 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name annotateConsensusPeakSet
+Aug-09 14:05:31.587 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.588 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.589 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > annotateConsensusPeakSet -- maxForks: 8
+Aug-09 14:05:31.591 [FileTransfer-thread-1] DEBUG nextflow.file.FilePorter - Copying foreign file s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf to work dir: /home/jeremie/AMLproject/work/stage/b0/cb62f6048a159f776245ba923a68d6/genes.gtf
+Aug-09 14:05:31.599 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name deseqConsensusPeakSet
+Aug-09 14:05:31.600 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.600 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.601 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > deseqConsensusPeakSet -- maxForks: 8
+Aug-09 14:05:31.608 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.608 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.609 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > igv -- maxForks: 8
+Aug-09 14:05:31.612 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_software_versions` matches process get_software_versions
+Aug-09 14:05:31.612 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.612 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.612 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > get_software_versions -- maxForks: 8
+Aug-09 14:05:31.634 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.634 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.635 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > multiqc -- maxForks: 8
+Aug-09 14:05:31.639 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 14:05:31.639 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 14:05:31.640 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > output_documentation -- maxForks: 8
+Aug-09 14:05:31.644 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Aug-09 14:05:31.644 [main] DEBUG nextflow.Session - Session await
+Aug-09 14:05:31.645 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:31.646 [Task submitter] INFO  nextflow.Session - [17/69fbec] Submitted process > get_software_versions
+Aug-09 14:05:31.660 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:31.663 [Task submitter] INFO  nextflow.Session - [83/d56de5] Submitted process > output_documentation
+Aug-09 14:05:32.001 [FileTransfer-thread-2] DEBUG nextflow.file.FilePorter - Copying foreign file s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta/genome.fa to work dir: /home/jeremie/AMLproject/work/stage/8c/3c32794ce345e7058f1b30ea0e2467/genome.fa
+Aug-09 14:05:33.192 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: checkDesign (singleend.csv); status: COMPLETED; exit: 0; error: -; workDir: /home/jeremie/AMLproject/work/6c/e6047e4d04a32a5e6cca50127fe177]
+Aug-09 14:05:33.340 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: output_documentation; status: COMPLETED; exit: 0; error: -; workDir: /home/jeremie/AMLproject/work/83/d56de5c606d958a1f5fd61ea071a36]
+Aug-09 14:05:33.379 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:33.380 [Task submitter] INFO  nextflow.Session - [ab/a1ff93] Submitted process > fastqc (CEBPA_R1_T1)
+Aug-09 14:05:33.591 [Actor Thread 5] INFO  nextflow.file.FilePorter - Staging foreign file: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf
+Aug-09 14:05:34.001 [Actor Thread 7] INFO  nextflow.file.FilePorter - Staging foreign file: s3://ngi-igenomes/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta/genome.fa
+Aug-09 14:05:35.154 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: fastqc (CEBPA_R1_T1); status: COMPLETED; exit: 0; error: -; workDir: /home/jeremie/AMLproject/work/ab/a1ff93268f0f5a677d5b370d50f48e]
+Aug-09 14:05:35.160 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.161 [Task submitter] INFO  nextflow.Session - [32/73f09d] Submitted process > trimGalore (CEBPA_R1_T1)
+Aug-09 14:05:35.169 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.170 [Task submitter] INFO  nextflow.Session - [99/b8c071] Submitted process > trimGalore (CEBPA_R2_T1)
+Aug-09 14:05:35.180 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.182 [Task submitter] INFO  nextflow.Session - [63/12be0a] Submitted process > trimGalore (CTCF_R1_T1)
+Aug-09 14:05:35.193 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.195 [Task submitter] INFO  nextflow.Session - [ad/bd88c1] Submitted process > trimGalore (DMSO_8h_H3K27ac_R1_T1)
+Aug-09 14:05:35.206 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.207 [Task submitter] INFO  nextflow.Session - [b1/e4a927] Submitted process > trimGalore (DMSO_8h_MAX_R1_T1)
+Aug-09 14:05:35.223 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 14:05:35.223 [Task submitter] INFO  nextflow.Session - [d0/4294c0] Submitted process > trimGalore (DMSO_H3K27ac_R1_T1)
+Aug-09 14:05:35.385 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'fastqc (CEBPA_R1_T1)'
+
+Caused by:
+  Missing output file(s) `*.{zip,html}` expected by process `fastqc (CEBPA_R1_T1)`
+
+Command executed:
+
+  [ ! -f  CEBPA_R1_T1.fastq.gz ] && ln -s mp112-MV411-CEBPA-r2.fastq.gz CEBPA_R1_T1.fastq.gz
+  fastqc -q CEBPA_R1_T1.fastq.gz
+
+Command exit status:
+  0
+
+Command output:
+  (empty)
+
+Command error:
+  WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+  Skipping 'CEBPA_R1_T1.fastq.gz' which didn't exist, or couldn't be read
+
+Work dir:
+  /home/jeremie/AMLproject/work/ab/a1ff93268f0f5a677d5b370d50f48e
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Aug-09 14:05:35.414 [Task monitor] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+Aug-09 14:05:35.477 [main] DEBUG nextflow.Session - Session await > all process finished
+Aug-09 14:05:37.112 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: trimGalore (CTCF_R1_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/63/12be0abcde298522918a7f73e93be3]
+Aug-09 14:05:37.391 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: trimGalore (CEBPA_R1_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/32/73f09dcbd6b3f90092f95caa82fe84]
+Aug-09 14:05:37.675 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: trimGalore (CEBPA_R2_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/99/b8c07102ed2719a8ba8747cedde9d1]
+Aug-09 14:05:37.687 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: trimGalore (DMSO_8h_H3K27ac_R1_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/ad/bd88c1f9ef27d8855f00f029733144]
+Aug-09 14:05:37.758 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: trimGalore (DMSO_8h_MAX_R1_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/b1/e4a927855ede88d430c28cf4a93f6d]
+Aug-09 14:05:37.832 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: trimGalore (DMSO_H3K27ac_R1_T1); status: COMPLETED; exit: 255; error: -; workDir: /home/jeremie/AMLproject/work/d0/4294c04e07c68fc8f5de47308a436a]
+Aug-09 14:05:38.547 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: get_software_versions; status: COMPLETED; exit: 0; error: -; workDir: /home/jeremie/AMLproject/work/17/69fbeca26c1e87a56569dd7435334f]
+Aug-09 14:06:48.211 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Aug-09 14:06:48.228 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-09 14:06:48.347 [main] ERROR nextflow.script.WorkflowMetadata - Failed to invoke `workflow.onComplete` event handler
+java.io.IOException: Cannot run program "mail": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:485)
+	at org.codehaus.groovy.runtime.ProcessGroovyMethods.execute(ProcessGroovyMethods.java:596)
+	at org.codehaus.groovy.runtime.ProcessGroovyMethods.execute(ProcessGroovyMethods.java:663)
+	at org.codehaus.groovy.runtime.dgm$940.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:244)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:119)
+	at Script_bc37e784$_runScript_closure56.doCall(Script_bc37e784:1581)
+	at Script_bc37e784$_runScript_closure56.doCall(Script_bc37e784)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at groovy.lang.Closure.call(Closure.java:399)
+	at nextflow.script.WorkflowMetadata$_invokeOnComplete_closure4.doCall(WorkflowMetadata.groovy:369)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at groovy.lang.Closure.call(Closure.java:421)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2296)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2281)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2322)
+	at nextflow.script.WorkflowMetadata.invokeOnComplete(WorkflowMetadata.groovy:367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:1011)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:994)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethodSafe(InvokerHelper.java:97)
+	at nextflow.script.WorkflowMetadata$_closure3.doCall(WorkflowMetadata.groovy:233)
+	at nextflow.script.WorkflowMetadata$_closure3.call(WorkflowMetadata.groovy)
+	at nextflow.Session.shutdown0(Session.groovy:737)
+	at nextflow.Session.destroy(Session.groovy:689)
+	at nextflow.script.ScriptRunner.terminate(ScriptRunner.groovy:297)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:134)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:246)
+	at nextflow.cli.Launcher.run(Launcher.groovy:451)
+	at nextflow.cli.Launcher.main(Launcher.groovy:633)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 57 common frames omitted
+Aug-09 14:06:53.362 [main] INFO  nextflow.Session - Waiting files transfer to complete (1 files)
+Aug-09 14:06:57.004 [SIGINT handler] INFO  nextflow.Session - Adieu
