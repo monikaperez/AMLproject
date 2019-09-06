@@ -1,0 +1,220 @@
+Aug-09 13:49:32.961 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/chipseq --skipDiffAnalysis --narrowPeak --design singleend.csv --max_cpus 8 --max_memory 12.GB --genome GRCh38 -profile docker
+Aug-09 13:49:33.072 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.07.0
+Aug-09 13:49:33.927 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 13:49:33.939 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 13:49:34.041 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/jeremie/.nextflow/assets/nf-core/chipseq/.git/config; branch: master; remote: origin; url: https://github.com/nf-core/chipseq.git
+Aug-09 13:49:34.041 [main] INFO  nextflow.cli.CmdRun - Launching `nf-core/chipseq` [scruffy_edison] - revision: 333bba3345 [master]
+Aug-09 13:49:34.551 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/jeremie/.nextflow/assets/nf-core/chipseq/nextflow.config
+Aug-09 13:49:34.552 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/jeremie/.nextflow/assets/nf-core/chipseq/nextflow.config
+Aug-09 13:49:34.560 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Aug-09 13:49:35.068 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [uppmax_devel, bigpurple, uppmax, docker, gis, ccga, conda, singularity, munin, prince, czbiohub_aws, hebbe, cfc, uzh, debug, test, ccga_dx, crick, czbiohub_aws_highpriority, kraken, phoenix, shh, mendel, pasteur, uct_hex, awsbatch, binac]
+Aug-09 13:49:35.108 [main] DEBUG nextflow.Session - Session uuid: e4388b63-066c-4274-8fb4-84b17e25fc08
+Aug-09 13:49:35.108 [main] DEBUG nextflow.Session - Run name: scruffy_edison
+Aug-09 13:49:35.109 [main] DEBUG nextflow.Session - Executor pool size: 8
+Aug-09 13:49:35.119 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.07.0 build 5106
+  Created: 27-07-2019 13:22 UTC 
+  System: Linux 4.9.0-9-amd64
+  Runtime: Groovy 2.5.6 on OpenJDK 64-Bit Server VM 1.8.0_222-8u222-b10-1~deb9u1-b10
+  Encoding: UTF-8 (UTF-8)
+  Process: 1405@instance-1 [10.142.0.2]
+  CPUs: 8 - Mem: 15.7 GB (13.6 GB) - Swap: 20 GB (20 GB)
+Aug-09 13:49:35.132 [main] DEBUG nextflow.Session - Work-dir: /home/jeremie/AMLproject/work [ext2/ext3]
+Aug-09 13:49:35.307 [main] DEBUG nextflow.Session - Session start invoked
+Aug-09 13:49:35.311 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /home/jeremie/AMLproject/results/pipeline_info/execution_trace.txt
+Aug-09 13:49:36.200 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-09 13:49:36.238 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Aug-09 13:49:36.247 [main] DEBUG nextflow.file.FileHelper - AWS S3 config details: {}
+Aug-09 13:49:38.246 [main] INFO  nextflow.Nextflow - [2m----------------------------------------------------[0m
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/chipseq v1.0.0[0m
+[2m----------------------------------------------------[0m
+
+Aug-09 13:49:38.250 [main] INFO  nextflow.Nextflow - Run Name            : scruffy_edison
+Data Type           : Paired-End
+Design File         : singleend.csv
+Genome              : GRCh38
+Fasta File          : s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa
+GTF File            : s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf
+BWA Index           : s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/BWAIndex/genome.fa
+Blacklist BED       : /home/jeremie/.nextflow/assets/nf-core/chipseq/assets/blacklists/hg38-blacklist.bed
+MACS2 Genome Size   : 2.7e9
+Min Consensus Reps  : 1
+MACS2 Narrow Peaks  : Yes
+Trim R1             : 0 bp
+Trim R2             : 0 bp
+Trim 3' R1          : 0 bp
+Trim 3' R2          : 0 bp
+Fingerprint Bins    : 500000
+Save Genome Index   : No
+Skip Diff Analysis  : Yes
+Max Resources       : 12.GB memory, 8 cpus, 10d time per job
+Container           : docker - nfcore/chipseq:1.0.0
+Output Dir          : ./results
+Launch Dir          : /home/jeremie/AMLproject
+Working Dir         : /home/jeremie/AMLproject/work
+Script Dir          : /home/jeremie/.nextflow/assets/nf-core/chipseq
+User                : jeremie
+Config Profile      : docker
+Aug-09 13:49:38.250 [main] INFO  nextflow.Nextflow - [2m----------------------------------------------------[0m
+Aug-09 13:49:38.312 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.312 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.316 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-09 13:49:38.320 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15.7 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Aug-09 13:49:38.356 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > checkDesign -- maxForks: 8
+Aug-09 13:49:38.445 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches label `process_low` for process with name makeGeneBED
+Aug-09 13:49:38.447 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.447 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.448 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeGeneBED -- maxForks: 8
+Aug-09 13:49:38.453 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.453 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.455 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeTSSBED -- maxForks: 8
+Aug-09 13:49:38.461 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.461 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.463 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > makeGenomeFilter -- maxForks: 8
+Aug-09 13:49:38.477 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name fastqc
+Aug-09 13:49:38.478 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.479 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.480 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > fastqc -- maxForks: 8
+Aug-09 13:49:38.494 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name trimGalore
+Aug-09 13:49:38.496 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.496 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.499 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > trimGalore -- maxForks: 8
+Aug-09 13:49:38.518 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name bwaMEM
+Aug-09 13:49:38.519 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.519 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.520 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > bwaMEM -- maxForks: 8
+Aug-09 13:49:38.525 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name sortBAM
+Aug-09 13:49:38.526 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.527 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.529 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > sortBAM -- maxForks: 8
+Aug-09 13:49:38.547 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name mergeBAM
+Aug-09 13:49:38.547 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.547 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.548 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > mergeBAM -- maxForks: 8
+Aug-09 13:49:38.556 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name filterBAM
+Aug-09 13:49:38.556 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.556 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.557 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > filterBAM -- maxForks: 8
+Aug-09 13:49:38.564 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name rmOrphanReads
+Aug-09 13:49:38.564 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.564 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.565 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > rmOrphanReads -- maxForks: 8
+Aug-09 13:49:38.569 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches label `process_low` for process with name preseq
+Aug-09 13:49:38.570 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.570 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.570 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > preseq -- maxForks: 8
+Aug-09 13:49:38.576 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name collectMultipleMetrics
+Aug-09 13:49:38.577 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.577 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.578 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > collectMultipleMetrics -- maxForks: 8
+Aug-09 13:49:38.579 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 13:49:38.586 [Task submitter] INFO  nextflow.Session - [6f/6208e9] Submitted process > checkDesign (singleend.csv)
+Aug-09 13:49:38.593 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name bigWig
+Aug-09 13:49:38.594 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.594 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.595 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > bigWig -- maxForks: 8
+Aug-09 13:49:38.600 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name plotProfile
+Aug-09 13:49:38.600 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.601 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.601 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > plotProfile -- maxForks: 8
+Aug-09 13:49:38.607 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name phantomPeakQualTools
+Aug-09 13:49:38.608 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.608 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.611 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > phantomPeakQualTools -- maxForks: 8
+Aug-09 13:49:38.639 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches label `process_high` for process with name plotFingerprint
+Aug-09 13:49:38.640 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.640 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.641 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > plotFingerprint -- maxForks: 8
+Aug-09 13:49:38.649 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name macsCallPeak
+Aug-09 13:49:38.649 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.649 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.650 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > macsCallPeak -- maxForks: 8
+Aug-09 13:49:38.655 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name annotatePeaks
+Aug-09 13:49:38.655 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.656 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.656 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > annotatePeaks -- maxForks: 8
+Aug-09 13:49:38.661 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name peakQC
+Aug-09 13:49:38.662 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.662 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.662 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > peakQC -- maxForks: 8
+Aug-09 13:49:38.670 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_long` matches label `process_long` for process with name createConsensusPeakSet
+Aug-09 13:49:38.670 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.670 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.671 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > createConsensusPeakSet -- maxForks: 8
+Aug-09 13:49:38.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name annotateConsensusPeakSet
+Aug-09 13:49:38.676 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.676 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.677 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > annotateConsensusPeakSet -- maxForks: 8
+Aug-09 13:49:38.685 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches label `process_medium` for process with name deseqConsensusPeakSet
+Aug-09 13:49:38.686 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.686 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.687 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > deseqConsensusPeakSet -- maxForks: 8
+Aug-09 13:49:38.695 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.695 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.696 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > igv -- maxForks: 8
+Aug-09 13:49:38.698 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_software_versions` matches process get_software_versions
+Aug-09 13:49:38.698 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.698 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.699 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > get_software_versions -- maxForks: 8
+Aug-09 13:49:38.715 [Actor Thread 5] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=24; maxQueueSize=72; keepAlive=1m
+Aug-09 13:49:38.722 [FileTransfer-thread-1] DEBUG nextflow.file.FilePorter - Local cache found for foreign file s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf at /home/jeremie/AMLproject/work/stage/a5/bfa509ef295fd241b8142eadc99259/genes.gtf
+Aug-09 13:49:38.729 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.729 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.730 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > multiqc -- maxForks: 8
+Aug-09 13:49:38.733 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 13:49:38.733 [Task submitter] INFO  nextflow.Session - [3d/2adf84] Submitted process > get_software_versions
+Aug-09 13:49:38.736 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-09 13:49:38.737 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 13:49:38.737 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > output_documentation -- maxForks: 8
+Aug-09 13:49:38.740 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Aug-09 13:49:38.740 [main] DEBUG nextflow.Session - Session await
+Aug-09 13:49:39.132 [FileTransfer-thread-2] DEBUG nextflow.file.FilePorter - Local cache found for foreign file s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa at /home/jeremie/AMLproject/work/stage/c2/859c8c3449043c15e510ae82cea603/genome.fa
+Aug-09 13:50:18.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: checkDesign (singleend.csv); status: COMPLETED; exit: 1; error: -; workDir: /home/jeremie/AMLproject/work/6f/6208e96661ceff3a0ae58467b6f6d9]
+Aug-09 13:50:18.379 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 13:50:18.380 [Task submitter] INFO  nextflow.Session - [1e/af1cec] Submitted process > makeGeneBED (genes.gtf)
+Aug-09 13:50:18.396 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'checkDesign (singleend.csv)'
+
+Caused by:
+  Process `checkDesign (singleend.csv)` terminated with an error exit status (1)
+
+Command executed:
+
+  check_design.py singleend.csv design_reads.csv design_controls.csv
+
+Command exit status:
+  1
+
+Command output:
+  ERROR: Please check design file: both Antibody and Control must be specified!
+  Line: 'INPUT,1,data/seqs/mp99-MV411-INPUT-r1.fastq.gz,,unknown,'
+
+Command error:
+  WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+
+Work dir:
+  /home/jeremie/AMLproject/work/6f/6208e96661ceff3a0ae58467b6f6d9
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+Aug-09 13:50:18.483 [Task monitor] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+Aug-09 13:50:18.496 [main] DEBUG nextflow.Session - Session await > all process finished
+Aug-09 13:50:19.184 [FileTransfer-thread-3] DEBUG nextflow.file.FilePorter - Local cache found for foreign file s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa at /home/jeremie/AMLproject/work/stage/c2/859c8c3449043c15e510ae82cea603/genome.fa
+Aug-09 13:50:20.787 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: get_software_versions; status: COMPLETED; exit: 0; error: -; workDir: /home/jeremie/AMLproject/work/3d/2adf84ca2535cc2cdecca58c65d22f]
+Aug-09 13:50:28.488 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Aug-09 13:50:28.507 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-09 13:50:28.680 [main] INFO  nextflow.Nextflow - [0;35m[nf-core/chipseq][0;31m Pipeline completed with errors[0m
+Aug-09 13:50:28.686 [main] WARN  n.processor.TaskPollingMonitor - Killing pending tasks (1)
+Aug-09 13:50:28.696 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=1; failedCount=2; ignoredCount=0; cachedCount=0; succeedDuration=40.9s; failedDuration=39.7s; cachedDuration=0ms]
+Aug-09 13:50:28.696 [main] DEBUG nextflow.trace.TraceFileObserver - Flow completing -- flushing trace file
+Aug-09 13:50:28.699 [main] DEBUG nextflow.trace.ReportObserver - Flow completing -- rendering html report
+Aug-09 13:50:28.742 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  {"checkDesign":{"cpu":null,"mem":null,"vmem":null,"time":{"mean":39729,"min":39729,"q1":39729,"q2":39729,"q3":39729,"max":39729,"minLabel":"checkDesign (singleend.csv)","maxLabel":"checkDesign (singleend.csv)","q1Label":"checkDesign (singleend.csv)","q2Label":"checkDesign (singleend.csv)","q3Label":"checkDesign (singleend.csv)"},"reads":null,"writes":null,"cpuUsage":null,"memUsage":null,"timeUsage":{"mean":0.55,"min":0.55,"q1":0.55,"q2":0.55,"q3":0.55,"max":0.55,"minLabel":"checkDesign (singleend.csv)","maxLabel":"checkDesign (singleend.csv)","q1Label":"checkDesign (singleend.csv)","q2Label":"checkDesign (singleend.csv)","q3Label":"checkDesign (singleend.csv)"}},"get_software_versions":{"cpu":{"mean":13.5,"min":13.5,"q1":13.5,"q2":13.5,"q3":13.5,"max":13.5,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"mem":{"mean":133074944,"min":133074944,"q1":133074944,"q2":133074944,"q3":133074944,"max":133074944,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"vmem":{"mean":473444352,"min":473444352,"q1":473444352,"q2":473444352,"q3":473444352,"max":473444352,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"time":{"mean":40945,"min":40945,"q1":40945,"q2":40945,"q3":40945,"max":40945,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"reads":{"mean":74793665,"min":74793665,"q1":74793665,"q2":74793665,"q3":74793665,"max":74793665,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"writes":{"mean":60175,"min":60175,"q1":60175,"q2":60175,"q3":60175,"max":60175,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"cpuUsage":{"mean":13.5,"min":13.5,"q1":13.5,"q2":13.5,"q3":13.5,"max":13.5,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"memUsage":{"mean":6.2,"min":6.2,"q1":6.2,"q2":6.2,"q3":6.2,"max":6.2,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"},"timeUsage":{"mean":0.57,"min":0.57,"q1":0.57,"q2":0.57,"q3":0.57,"max":0.57,"minLabel":"get_software_versions","maxLabel":"get_software_versions","q1Label":"get_software_versions","q2Label":"get_software_versions","q3Label":"get_software_versions"}},"makeGeneBED":{"cpu":null,"mem":null,"vmem":null,"time":null,"reads":null,"writes":null,"cpuUsage":null,"memUsage":null,"timeUsage":null}}
+Aug-09 13:50:29.479 [main] DEBUG nextflow.trace.TimelineObserver - Flow completing -- rendering html timeline
+Aug-09 13:50:29.521 [main] WARN  nextflow.dag.GraphvizRenderer - To render the execution DAG in the required format it is required to install Graphviz -- See http://www.graphviz.org for more info.
+Aug-09 13:50:29.649 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Aug-09 13:50:29.653 [main] DEBUG nextflow.Session - AWS S3 uploader shutdown
+Aug-09 13:50:29.667 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

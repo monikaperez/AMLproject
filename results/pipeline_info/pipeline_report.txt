@@ -1,0 +1,66 @@
+========================================
+ nf-core/chipseq v1.0.0
+========================================
+Run Name: festering_mclean
+
+####################################################
+## nf-core/chipseq execution completed unsuccessfully! ##
+####################################################
+The exit status of the task that caused the workflow execution to fail was: null.
+The full error message was:
+
+Argument of `file` function cannot be empty
+
+
+
+The workflow was completed at Fri Aug 09 13:51:03 UTC 2019 (duration: 5s)
+
+The command used to launch the workflow was as follows:
+
+  nextflow run nf-core/chipseq --skipDiffAnalysis --narrowPeak --design singleend.csv --max_cpus 8 --max_memory 12.GB --genome GRCh38 -profile docker
+
+
+
+Pipeline Configuration:
+-----------------------
+ - Run Name: festering_mclean
+ - Data Type: Paired-End
+ - Design File: singleend.csv
+ - Genome: GRCh38
+ - Fasta File: s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa
+ - GTF File: s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf
+ - BWA Index: s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/BWAIndex/genome.fa
+ - Blacklist BED: /home/jeremie/.nextflow/assets/nf-core/chipseq/assets/blacklists/hg38-blacklist.bed
+ - MACS2 Genome Size: 2.7e9
+ - Min Consensus Reps: 1
+ - MACS2 Narrow Peaks: Yes
+ - Trim R1: 0 bp
+ - Trim R2: 0 bp
+ - Trim 3' R1: 0 bp
+ - Trim 3' R2: 0 bp
+ - Fingerprint Bins: 500000
+ - Save Genome Index: No
+ - Skip Diff Analysis: Yes
+ - Max Resources: 12.GB memory, 8 cpus, 10d time per job
+ - Container: docker - nfcore/chipseq:1.0.0
+ - Output Dir: ./results
+ - Launch Dir: /home/jeremie/AMLproject
+ - Working Dir: /home/jeremie/AMLproject/work
+ - Script Dir: /home/jeremie/.nextflow/assets/nf-core/chipseq
+ - User: jeremie
+ - Config Profile: docker
+ - Date Started: Fri Aug 09 13:50:58 UTC 2019
+ - Date Completed: Fri Aug 09 13:51:03 UTC 2019
+ - Pipeline script file path: /home/jeremie/.nextflow/assets/nf-core/chipseq/main.nf
+ - Pipeline script hash ID: 895c190c30148876a13709597507c601
+ - Pipeline repository Git URL: https://github.com/nf-core/chipseq.git
+ - Pipeline repository Git Commit: 333bba334512625775157aa0087c023cf0bde397
+ - Pipeline Git branch/tag: master
+ - Docker image: nfcore/chipseq:1.0.0
+ - Nextflow Version: 19.07.0
+ - Nextflow Build: 5106
+ - Nextflow Compile Timestamp: 27-07-2019 13:22 UTC
+
+--
+nf-core/chipseq
+https://github.com/nf-core/chipseq
