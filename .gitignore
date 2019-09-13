@@ -3,5 +3,7 @@ data/mapped
 data/seqs
 data/reference
 data/metaseq-example/
-
+data/results
 temp/*
+references
+.nextflow
