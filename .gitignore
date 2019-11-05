@@ -2,6 +2,7 @@
 data/data
 data/mapped
 data/seqs
+data/bigwig
 data/reference
 data/metaseq-example/
 data/results
