@@ -17,42 +17,66 @@ GSE116256_RAW 35 samples of scRNAseq of AML at D0 and D14+ (chemoterapy) 16 pati
 known enhancers to compare
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5467550/
 
+## [Protein array, RRBS,ABSOLUTE CN, Translocation, miRNA, metabolomics] for MV411- ACH-000045
+
+`CCLE_RPPA_20181003 = tc.get(name='depmap-rppa-1b43', version=3, file='CCLE_RPPA_20181003')`
+
+`translocations = tc.get(name='translocations-b331', version=5, file='translocations')`
+
+`CCLE_metabolomics_20190502 = tc.get(name='metabolomics-cd0c', version=4, file='CCLE_metabolomics_20190502')`
+
+`CCLE_RRBS_cgi_CpG_clusters_20181119 = tc.get(name='rrbs-4b29', version=7, file='CCLE_RRBS_cgi_CpG_clusters_20181119')`
+
+`CCLE_RRBS_enh_CpG_clusters_20181119 = tc.get(name='rrbs-4b29', version=7, file='CCLE_RRBS_enh_CpG_clusters_20181119')`
+
+`CCLE_RRBS_tss_CpG_clusters_20181022 = tc.get(name='rrbs-4b29', version=7, file='CCLE_RRBS_tss_CpG_clusters_20181022')`
+
+`CCLE_miRNA_20180525 = tc.get(name='mirna-expression-2c5f', version=3, file='CCLE_miRNA_20180525')`
+
+
 ## we have chip data for
-CD34
-D0
-D9
-EOL1
-F36P
-HEL
-HEL9217
-HL60
-Kasumi1
-KG1
-M6
-MOLM13
-MONOMAC6
-MV411
-NB4
-NOMO1
-OCIAML2
-OCIAML3
-P31FUJ
-PLB985
-SHI1
-SKNO1
-TF1
-THP1
-U937
-UCSDAML1
-UT7
+
+- CD34
+- D0
+- D9
+- EOL1
+- F36P
+- HEL
+- HEL9217
+- HL60
+- Kasumi1
+- KG1
+- M6
+- MOLM13
+- MONOMAC6
+- MV411
+- NB4
+- NOMO1
+- OCIAML2
+- OCIAML3
+- P31FUJ
+- PLB985
+- SHI1
+- SKNO1
+- TF1
+- THP1
+- U937
+- UCSDAML1
+- UT7
 
 ## we have WGS for 
-EOL1 EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
-HEL9217 HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
-MV411 MV4-11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
-THP1 THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+
+- EOL1
+- EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+- HEL9217
+- HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+- MV411
+- MV4-11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+- THP1
+- THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
 
 ## we have ENCODE Data for
+
 HL60 HL-60
 THP1 THP-1
 
