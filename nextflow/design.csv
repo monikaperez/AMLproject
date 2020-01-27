@@ -21,6 +21,8 @@ M6_1,1,bams/Chip/mp128.fastq.gz,,MED1,INPUT_M6
 MV411_2,1,bams/Chip/mp129.fastq.gz,,RUNX1,INPUT_MV411
 IGG_MV411,1,bams/Chip/mp134.fastq.gz,,,
 MV411_3,1,bams/Chip/mp136.fastq.gz,,H3K27ac,INPUT_MV411
+MV411_1,1,bams/Chip/mp137.fastq.gz,,H3K4me1,INPUT_MV411
+MV411_1,1,bams/Chip/mp138.fastq.gz,,H3K4me3,INPUT_MV411
 INPUT_D9,1,bams/Chip/mp14.fastq.gz,,,
 IGG_M6,1,bams/Chip/mp143.fastq.gz,,,
 D9_3,1,bams/Chip/mp153.fastq.gz,,CEBPA,INPUT_D9
@@ -31,9 +33,11 @@ D9_3,1,bams/Chip/mp157.fastq.gz,,H3K27ac,INPUT_D9
 D9_2,1,bams/Chip/mp160.fastq.gz,,MED1,INPUT_D9
 OCIAML2_1,1,bams/Chip/mp168.fastq.gz,,PU1,INPUT_OCIAML2
 M6_1,1,bams/Chip/mp171.fastq.gz,,PU1,INPUT_M6
+INPUT_D0,1,bams/Chip/mp18.fastq.gz,,,
 MV411-DMSO_1,1,bams/Chip/mp183.fastq.gz,,H3K27ac,INPUT_MV411
 NOMO1_3,1,bams/Chip/mp186.fastq.gz,,H3K27ac,INPUT_NOMO1
 UT7_3,1,bams/Chip/mp187.fastq.gz,,H3K27ac,INPUT_UT7
+UCSDAML1_2,1,bams/Chip/mp188.fastq.gz,,H3K27ac,INPUT_UCSDAML1
 NB4_1,1,bams/Chip/mp193.fastq.gz,,H3K27ac,INPUT_NB4
 TF1_1,1,bams/Chip/mp194.fastq.gz,,H3K27ac,INPUT_TF1
 OCIAML3_1,1,bams/Chip/mp195.fastq.gz,,H3K27ac,INPUT_OCIAML3
@@ -54,6 +58,7 @@ SKNO1_1,1,bams/Chip/mp232.fastq.gz,,ETV6,INPUT_SKNO1
 SKNO1_1,1,bams/Chip/mp233.fastq.gz,,RUNX1,INPUT_SKNO1
 INPUT_OCIAML2,1,bams/Chip/mp24.fastq.gz,,,
 D9_2,1,bams/Chip/mp27.fastq.gz,,CEBPA,INPUT_D9
+MV411_1,1,bams/Chip/mp293.fastq.gz,,H3K79me2,INPUT_MV411
 MV411_3,1,bams/Chip/mp299.fastq.gz,,CEBPA,INPUT_MV411
 MV411_3,1,bams/Chip/mp300.fastq.gz,,RUNX1,INPUT_MV411
 MV411_2,1,bams/Chip/mp301.fastq.gz,,PU1,INPUT_MV411
@@ -104,6 +109,7 @@ INPUT_D9,1,bams/Chip/mp5.fastq.gz,,,
 OCIAML2_2,1,bams/Chip/mp50.fastq.gz,,H3K27ac,INPUT_OCIAML2
 HL60_1,1,bams/Chip/mp53.fastq.gz,,H3K27ac,INPUT_HL60
 Kasumi1_1,1,bams/Chip/mp56.fastq.gz,,H3K27ac,INPUT_Kasumi1
+MV411_1,1,bams/Chip/mp565.fastq.gz,,CDK13,INPUT_MV411
 MV411_3,1,bams/Chip/mp568.fastq.gz,,ZEB2,INPUT_MV411
 MV411_4,1,bams/Chip/mp569.fastq.gz,,ETV6,INPUT_MV411
 MV411_1,1,bams/Chip/mp570.fastq.gz,,CTCF,INPUT_MV411
@@ -147,8 +153,10 @@ INPUT_DFAM71927V3,1,bams/Chip/mp643.fastq.gz,,,
 MV411_1,1,bams/Chip/mp650.fastq.gz,,LDB1,INPUT_MV411
 OCIAML2_3,1,bams/Chip/mp67.fastq.gz,,H3K27ac,INPUT_OCIAML2
 MV411_DMSO_8h_1,1,bams/Chip/mp690.fastq.gz,,MAX,INPUT_MV411
+D0_1,1,bams/Chip/mp7.fastq.gz,,EZH2,INPUT_D0
 MV411_1,1,bams/Chip/mp70.fastq.gz,,H3K27ac,INPUT_MV411
 MV411_DMSO_8h_2,1,bams/Chip/mp702.fastq.gz,,H3K27ac,INPUT_MV411
+MV411_1,1,bams/Chip/mp71.fastq.gz,,H3K27me3,INPUT_MV411
 MV411_7,1,bams/Chip/mp714.fastq.gz,,ZEB2,INPUT_MV411
 MV411_8,1,bams/Chip/mp715.fastq.gz,,ZEB2,INPUT_MV411
 MV411_9,1,bams/Chip/mp716.fastq.gz,,GSE1,INPUT_MV411
@@ -158,6 +166,7 @@ MV411_1,1,bams/Chip/mp72.fastq.gz,,CEBPA,INPUT_MV411
 MV411-DMSO-8h_2,1,bams/Chip/mp724.fastq.gz,,MYC,INPUT_MV411
 MV411-DMSO-8h_1,1,bams/Chip/mp728.fastq.gz,,CEBPA,INPUT_MV411
 U937_1,1,bams/Chip/mp73.fastq.gz,,H3K27ac,INPUT_U937
+MV411-DMSO-8h_2,1,bams/Chip/mp734.fastq.gz,,H3K27ac,INPUT_MV411
 DFAM71927V3_1,1,bams/Chip/mp739.fastq.gz,,RUNX1,INPUT_DFAM71927V3
 DFAM71927V3_1,1,bams/Chip/mp741.fastq.gz,,MYB,INPUT_DFAM71927V3
 DFAM71927V3_1,1,bams/Chip/mp742.fastq.gz,,MYC,INPUT_DFAM71927V3
@@ -166,9 +175,9 @@ DFAM71927V3_1,1,bams/Chip/mp745.fastq.gz,,GFI1,INPUT_DFAM71927V3
 DFAM71927V3_1,1,bams/Chip/mp748.fastq.gz,,ELF2,INPUT_DFAM71927V3
 DFAM71927V3_1,1,bams/Chip/mp750.fastq.gz,,GATA2,INPUT_DFAM71927V3
 DFAM71927V3_1,1,bams/Chip/mp751.fastq.gz,,FLI1,INPUT_DFAM71927V3
-MV411-MEF2D-NT-SC-63_1,1,bams/Chip/mp760.fastq.gz,,FLAG,INPUT_MV411
-MV411-PU1-NT-SC-1_1,1,bams/Chip/mp761.fastq.gz,,FLAG,INPUT_MV411
-MV411-IRF2BP2-CT-GFP-8_1,1,bams/Chip/mp762.fastq.gz,,FLAG,INPUT_MV411
+MV411-MEF2D-NT-SC-63_1,1,bams/Chip/mp760.fastq.gz,,FLAG_MEF2D,INPUT_MV411
+MV411-PU1-NT-SC-1_1,1,bams/Chip/mp761.fastq.gz,,FLAG_PU1,INPUT_MV411
+MV411-IRF2BP2-CT-GFP-8_1,1,bams/Chip/mp762.fastq.gz,,FLAG_IRF2BP2,INPUT_MV411
 MV411_6,1,bams/Chip/mp763.fastq.gz,,RUNX2,INPUT_MV411
 MV411_7,1,bams/Chip/mp764.fastq.gz,,RUNX2,INPUT_MV411
 MV411_8,1,bams/Chip/mp765.fastq.gz,,RUNX2,INPUT_MV411
@@ -185,6 +194,7 @@ MONOMAC1_3,1,bams/Chip/mp777.fastq.gz,,H3K27ac,INPUT_MONOMAC1
 MONOMAC1_4,1,bams/Chip/mp778.fastq.gz,,H3K27ac,INPUT_MONOMAC1
 INPUT_D0,1,bams/Chip/mp8.fastq.gz,,,
 MV411_2,1,bams/Chip/mp88.fastq.gz,,H3K27ac,INPUT_MV411
+MV411_1,1,bams/Chip/mp89.fastq.gz,,H3K36me3,INPUT_MV411
 U937_2,1,bams/Chip/mp90.fastq.gz,,H3K27ac,INPUT_U937
 NOMO1_2,1,bams/Chip/mp92.fastq.gz,,H3K27ac,INPUT_NOMO1
 INPUT_M6,1,bams/Chip/mp98.fastq.gz,,,

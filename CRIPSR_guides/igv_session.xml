@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" hasGeneTrack="true" hasSequenceTrack="true" locus="chr1:155065232-156806647" path="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/data/CRIPSR_guides/igv_session.xml" version="8">
+    <Resources>
+        <Resource path="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/positive.bed"/>
+        <Resource path="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/negative.bed"/>
+    </Resources>
+    <Panel height="577" name="FeaturePanel" width="1423">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;423.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;616.0;255,255,255;0,0,178" fontSize="10" id="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/negative.bed" name="negative.bed" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;127.0;255,255,255;0,0,178" fontSize="10" id="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/positive.bed" name="positive.bed" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.01020408163265306"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
