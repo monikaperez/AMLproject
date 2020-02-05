@@ -12,7 +12,6 @@ GO_Biological_Process_2015
 wikipathway
 .nextflow.*
 .nextflow/*
-results/*
 work/*
 data/GEO
 data/bams
