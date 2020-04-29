@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" locus="chr3:44914988-45979497" path="/Users/jeremie/Documents/Projects/BroadInstitute/AMLproject/data/mp604.example.xml" version="8">
+    <Resources>
+        <Resource path="gs://amlproject/Chip/results/bwa/mergedLibrary/bigwig/mp604-MV411-IKZF1-r2.mLb.clN.bigWig"/>
+        <Resource path="/Users/jeremie/Desktop/mp604-MV411-IKZF1-r2.narrowPeak"/>
+        <Resource path="/Users/jeremie/Desktop/additionalpeaksinsec_mp604.bed"/>
+    </Resources>
+    <Panel height="439" name="DataPanel" width="1133">
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="gs://amlproject/Chip/results/bwa/mergedLibrary/bigwig/mp604-MV411-IKZF1-r2.mLb.clN.bigWig" name="mp604-MV411-IKZF1-r2.mLb.clN.bigWig" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.3668271" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;14.0;255,255,255;0,0,178" fontSize="10" id="/Users/jeremie/Desktop/mp604-MV411-IKZF1-r2.narrowPeak" name="mp604-MV411-IKZF1-r2.narrowPeak" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;22.0;255,255,255;0,0,178" fontSize="10" id="/Users/jeremie/Desktop/additionalpeaksinsec_mp604.bed" name="additionalpeaksinsec_mp604.bed" visible="true"/>
+    </Panel>
+    <Panel height="142" name="FeaturePanel" width="1133">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;426.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg38_genes" name="Gene" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.75"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
