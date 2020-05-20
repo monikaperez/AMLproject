@@ -1,0 +1,3 @@
+[submodule "src/ROSE"]
+	path = src/ROSE
+	url = https://github.com/stjude/ROSE.git
