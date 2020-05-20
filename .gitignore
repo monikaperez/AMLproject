@@ -6,6 +6,7 @@ data/bigwig
 data/reference
 data/metaseq-example/
 data/results
+data/pathways
 temp/*
 references
 GO_Biological_Process_2015
@@ -16,3 +17,6 @@ work/*
 data/GEO
 data/bams
 GSEA_
+**/*.bam
+**/*.fastq
+**/*.bai
