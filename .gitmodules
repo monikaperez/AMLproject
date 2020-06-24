@@ -1,3 +1,6 @@
+[submodule "ROSEv2"]
+	path = ROSEv2
+	url = https://github.com/Barski-lab/ROSE.git
 [submodule "src/ROSE"]
 	path = src/ROSE
 	url = https://bitbucket.org/young_computation/rose.git
