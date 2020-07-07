@@ -20,3 +20,4 @@ GSEA_
 **/*.fastq
 **/*.bai
 **/*.hic
+**/*.bw
