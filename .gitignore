@@ -10,8 +10,7 @@ data/pathways
 temp/*
 references
 wikipathway
-.nextflow.*
-.nextflow/*
+.nextflow
 work/*
 data/GEO
 data/bams
