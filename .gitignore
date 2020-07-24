@@ -1,13 +1,14 @@
 .ipynb_checkpoints
-data/
 data/mapped
 data/seqs
 data/bigwig
 data/reference
 data/metaseq-example/
-data/results
 data/pathways
 temp/*
+results/*/large/*
+data/*/large/*
+Icon^M
 references
 wikipathway
 .nextflow
