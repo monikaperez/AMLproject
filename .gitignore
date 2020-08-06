@@ -11,6 +11,7 @@ data/*/large/*
 Icon^M
 references
 wikipathway
+data/*/narrowPeak
 .nextflow
 work/*
 data/GEO
