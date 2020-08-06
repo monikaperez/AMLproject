@@ -1,0 +1,332 @@
+PeakID (cmd=annotatePeaks.pl MEF2D.consensus_peaks.bed genome.fa -gid -gtf genes.gtf -cpu 6)	Chr	Start	End	Strand	Peak Score	Focus Ratio/Region Size	Annotation	Detailed Annotation	Distance to TSS	Nearest PromoterID	Entrez ID	Nearest Unigene	Nearest Refseq	Nearest Ensembl	Gene Name	Gene Alias	Gene Description	Gene Type
+Interval_83	chr15	74153422	74153468	+	0	NA	Intergenic	NA	-20301	ISLR								
+Interval_62	chr12	124380521	124380749	+	0	NA	intron (NCOR2, intron 19 of 47)	NA	-43398	MIR6880								
+Interval_11	chr1	155244657	155245043	+	0	NA	promoter-TSS (GBA)	NA	12	GBA								
+Interval_163	chr2	191436507	191436667	+	0	NA	Intergenic	NA	191059	MYO1B								
+Interval_267	chr8	35592218	35592427	+	0	NA	intron (UNC5D, intron 3 of 16)	NA	117998	LOC101929550								
+Interval_246	chr7	17690095	17690244	+	0	NA	Intergenic	NA	-131260	AC017060.1								
+Interval_194	chr3	28952795	28952948	+	0	NA	Intergenic	NA	-327989	RBMS3								
+Interval_200	chr3	76554910	76555089	+	0	NA	intron (ROBO2, intron 2 of 26)	NA	-154659	LOC102724949								
+Interval_274	chr8	66521887	66521952	+	0	NA	Intergenic	NA	28663	C8orf46								
+Interval_167	chr2	223586366	223586515	+	0	NA	Intergenic	NA	16059	SCG2								
+Interval_152	chr2	88181457	88181600	+	0	NA	intron (THNSL2, intron 4 of 4)	NA	8389	THNSL2								
+Interval_124	chr19	14375080	14375375	+	0	NA	Intergenic	NA	-5917	CD97								
+Interval_52	chr12	32482374	32482589	+	0	NA	intron (FGD4, intron 1 of 15)	NA	-51817	FGD4								
+Interval_287	chr8	133654463	133654634	+	0	NA	Intergenic	NA	122804	LOC101927798								
+Interval_272	chr8	64729575	64729893	+	0	NA	intron (CYP7B1, intron 1 of 5)	NA	69057	CYP7B1								
+Interval_14	chr1	161097745	161097874	+	0	NA	promoter-TSS (KLHDC9)	NA	-582	KLHDC9								
+Interval_300	chr9	133564662	133564723	+	0	NA	intron (ADAMTSL2, intron 12 of 18)	NA	29849	ADAMTSL2								
+Interval_68	chr13	110870354	110870503	+	0	NA	promoter-TSS (LINC00346)	NA	-120	LINC00346								
+Interval_24	chr1	212608626	212608775	+	0	NA	promoter-TSS (ATF3)	NA	72	ATF3								
+Interval_226	chr6	5050043	5050287	+	0	NA	intron (LYRM4, intron 3 of 3)	NA	20193	LOC100129461								
+Interval_214	chr4	128552974	128553244	+	0	NA	intron (LOC101927259, intron 1 of 1)	NA	350	LOC101927259								
+Interval_96	chr16	88958188	88958435	+	0	NA	intron (CBFA2T3, intron 1 of 10)	NA	-17111	CBFA2T3								
+Interval_317	chrUn_KI270466v1	710	782	+	0	NA	NA	NA	NA	NA								
+Interval_283	chr8	106269914	106270256	+	0	NA	promoter-TSS (OXR1)	NA	-177839	OXR1								
+Interval_173	chr20	8018241	8018438	+	0	NA	intron (TMX4, intron 1 of 7)	NA	1407	TMX4								
+Interval_164	chr2	195650603	195650839	+	0	NA	Intergenic	NA	-6407	SLC39A10								
+Interval_261	chr8	12766664	12766825	+	0	NA	intron (RP11-252C15.1, intron 3 of 3)	NA	-11261	LONRF1								
+Interval_297	chr9	99819820	99820109	+	0	NA	promoter-TSS (RP11-554F20.1)	NA	-75	RP11-554F20.1								
+Interval_248	chr7	30430869	30431018	+	0	NA	intron (NOD1, intron 9 of 10)	NA	-29108	LOC101928268								
+Interval_258	chr7	149600657	149600806	+	0	NA	intron (ZNF767, intron 3 of 7)	NA	2776	TRNAC22								
+Interval_229	chr6	34236869	34237048	+	0	NA	promoter-TSS (HMGA1)	NA	158	HMGA1								
+Interval_109	chr17_KI270729v1_random	160912	161184	+	0	NA	NA	NA	NA	NA								
+Interval_238	chr6	134236082	134236250	+	0	NA	intron (SGK1, intron 2 of 13)	NA	-60234	SGK1								
+Interval_160	chr2	181697680	181697829	+	0	NA	Intergenic	NA	-17089	NEUROD1								
+Interval_40	chr11	1548328	1548635	+	0	NA	Intergenic	NA	7976	LOC101927562								
+Interval_128	chr19	39398353	39398556	+	0	NA	exon (MED29, exon 4 of 4)	NA	7131	MED29								
+Interval_75	chr14	56963496	56963645	+	0	NA	Intergenic	NA	150387	OTX2-AS1								
+Interval_146	chr2	60462317	60462419	+	0	NA	exon (BCL11A, exon 4 of 5)	NA	-60251	LOC102724142								
+Interval_239	chr6	141483734	141483941	+	0	NA	Intergenic	NA	604962	NMBR								
+Interval_104	chr17	44123609	44123765	+	0	NA	promoter-TSS (HDAC5)	NA	-41	HDAC5								
+Interval_20	chr1	184786864	184786946	+	0	NA	Intergenic	NA	-31998	EDEM3								
+Interval_331	chrY	56734774	56734929	+	0	NA	Intergenic	NA	-219458	SPRY3-2								
+Interval_328	chrX	107716894	107717167	+	0	NA	promoter-TSS (TSC22D3)	NA	31	TSC22D3								
+Interval_242	chr6	159084664	159084823	+	0	NA	Intergenic	NA	-22730	LOC101929094								
+Interval_7	chr1	107623065	107623256	+	0	NA	intron (VAV3, intron 20 of 25)	NA	-274063	MIR7852								
+Interval_250	chr7	30520912	30521078	+	0	NA	Intergenic	NA	-16154	GGCT								
+Interval_329	chrX	120015644	120015693	+	0	NA	intron (LOC101928941, intron 1 of 2)	NA	2034	LOC101928941								
+Interval_182	chr21	29065056	29065205	+	0	NA	intron (CCT8, intron 7 of 15)	NA	8667	CCT8								
+Interval_25	chr1	224334032	224334262	+	0	NA	Intergenic	NA	-4008	NVL								
+Interval_243	chr6	164108978	164109210	+	0	NA	Intergenic	NA	-437610	LOC102724152								
+Interval_313	chrUn_KI270438v1	104676	104726	+	0	NA	NA	NA	NA	NA								
+Interval_29	chr10	3785326	3785668	+	0	NA	promoter-TSS (KLF6)	NA	-216	KLF6								
+Interval_88	chr16	34582115	34582373	+	0	NA	Intergenic	NA	150252	LOC102724523								
+Interval_247	chr7	18495483	18495799	+	0	NA	promoter-TSS (HDAC9)	NA	-621	HDAC9								
+Interval_42	chr11	33893729	33893957	+	0	NA	Intergenic	NA	-23319	LMO2								
+Interval_97	chr17	21034314	21034636	+	0	NA	intron (USP22, intron 1 of 12)	NA	8934	USP22								
+Interval_37	chr10	117762712	117763009	+	0	NA	Intergenic	NA	27918	LOC102724627								
+Interval_71	chr14	42323068	42323217	+	0	NA	Intergenic	NA	715581	LRFN5								
+Interval_84	chr15	84840926	84841144	+	0	NA	intron (ALPK3, intron 5 of 13)	NA	24355	ALPK3								
+Interval_78	chr14	100617341	100617523	+	0	NA	Intergenic	NA	-39836	LINC00523								
+Interval_255	chr7	77561444	77561648	+	0	NA	intron (PTPN12, intron 1 of 16)	NA	23511	PTPN12								
+Interval_130	chr19	40848878	40848944	+	0	NA	intron (CYP2A6, intron 2 of 8)	NA	1536	CYP2A6								
+Interval_125	chr19	14943691	14943887	+	0	NA	Intergenic	NA	2300	OR7C2								
+Interval_105	chr17	50707899	50708073	+	0	NA	promoter-TSS (ANKRD40)	NA	-77	ANKRD40								
+Interval_120	chr19	2546371	2546744	+	0	NA	intron (GNG7, intron 3 of 4)	NA	-32986	LOC101929097								
+Interval_325	chrX	10121837	10122000	+	0	NA	intron (WWC3, intron 11 of 22)	NA	-35027	CLCN4								
+Interval_48	chr11	128693880	128694056	+	0	NA	promoter-TSS (FLI1)	NA	52	FLI1								
+Interval_316	chrUn_KI270438v1	112004	112346	+	0	NA	NA	NA	NA	NA								
+Interval_181	chr21	21406957	21407127	+	0	NA	intron (NCAM2, intron 6 of 14)	NA	330277	LINC00317								
+Interval_145	chr2	60462155	60462233	+	0	NA	exon (BCL11A, exon 4 of 5)	NA	-60077	LOC102724142								
+Interval_326	chrX	11824906	11825193	+	0	NA	Intergenic	NA	66890	MSL3								
+Interval_252	chr7	41881856	41882056	+	0	NA	Intergenic	NA	-178848	INHBA								
+Interval_318	chrUn_KI270466v1	932	1147	+	0	NA	NA	NA	NA	NA								
+Interval_126	chr19	16324568	16324869	+	0	NA	promoter-TSS (KLF2)	NA	-122	KLF2								
+Interval_218	chr5	81751304	81751468	+	0	NA	promoter-TSS (SSBP2)	NA	-133	SSBP2								
+Interval_162	chr2	191020267	191020465	+	0	NA	Intergenic	NA	-6116	STAT1								
+Interval_254	chr7	73123737	73123801	+	0	NA	Intergenic	NA	-31155	LOC100093631								
+Interval_112	chr18	12407747	12407909	+	0	NA	promoter-TSS (SLMO1)	NA	-68	SLMO1								
+Interval_292	chr9	18597024	18597235	+	0	NA	intron (ADAMTSL1, intron 4 of 28)	NA	23823	MIR3152								
+Interval_3	chr1	67433956	67434105	+	0	NA	Intergenic	NA	-3590	SERBP1								
+Interval_55	chr12	49222618	49222787	+	0	NA	intron (LOC102723916, intron 1 of 2)	NA	13779	LOC102723916								
+Interval_308	chrM	5303	5585	+	0	NA	promoter-TSS (TRNW)	NA	-68	TRNW								
+Interval_51	chr12	25386084	25386361	+	0	NA	Intergenic	NA	-135302	KRAS								
+Interval_203	chr3	157160770	157160989	+	0	NA	promoter-TSS (CCNL1)	NA	-738	CCNL1								
+Interval_148	chr2	60546129	60546260	+	0	NA	exon (BCL11A, exon 2 of 5)	NA	7304	BCL11A								
+Interval_66	chr13	51330884	51331039	+	0	NA	Intergenic	NA	-10071	SERPINE3								
+Interval_156	chr2	100192948	100193107	+	0	NA	Intergenic	NA	-15227	LINC01104								
+Interval_89	chr16	34588424	34588678	+	0	NA	Intergenic	NA	156559	LOC102724523								
+Interval_276	chr8	76617411	76617735	+	0	NA	intron (ZFHX4-AS1, intron 2 of 3)	NA	-63707	ZFHX4								
+Interval_59	chr12	104138074	104138404	+	0	NA	promoter-TSS (NFYB)	NA	23	NFYB								
+Interval_168	chr2	226772823	226773011	+	0	NA	intron (IRS1, intron 1 of 1)	NA	26912	IRS1								
+Interval_237	chr6	127333768	127333917	+	0	NA	intron (ECHDC1, intron 1 of 6)	NA	9767	ECHDC1								
+Interval_204	chr3	168024795	168024975	+	0	NA	intron (GOLIM4, intron 12 of 14)	NA	71039	GOLIM4								
+Interval_103	chr17	44111179	44111390	+	0	NA	intron (HDAC5, intron 2 of 27)	NA	12362	HDAC5								
+Interval_50	chr12	6167936	6168173	+	0	NA	Intergenic	NA	-32262	CD9								
+Interval_259	chr7	150755508	150755757	+	0	NA	Intergenic	NA	18284	GIMAP5								
+Interval_265	chr8	22974200	22974483	+	0	NA	Intergenic	NA	-13076	RHOBTB2								
+Interval_310	chrM	7642	8198	+	0	NA	promoter-TSS (TRNS1)	NA	-375	TRNK								
+Interval_140	chr19	54133778	54133833	+	0	NA	Intergenic	NA	-3915	CNOT3								
+Interval_296	chr9	99368324	99368591	+	0	NA	intron (NAMA, intron 3 of 5)	NA	6800	NAMA								
+Interval_183	chr21	32771676	32771886	+	0	NA	promoter-TSS (PAXBP1)	NA	6	PAXBP1								
+Interval_315	chrUn_KI270438v1	109675	109862	+	0	NA	NA	NA	NA	NA								
+Interval_184	chr21	32771965	32772147	+	0	NA	promoter-TSS (PAXBP1)	NA	-44	C21orf49								
+Interval_87	chr16	34078762	34079023	+	0	NA	Intergenic	NA	81144	LINC00273								
+Interval_95	chr16	83220187	83220428	+	0	NA	intron (CDH13, intron 5 of 13)	NA	-288039	MIR3182								
+Interval_189	chr3	3632533	3632758	+	0	NA	Intergenic	NA	-168225	LRRN1								
+Interval_158	chr2	156334684	156334840	+	0	NA	Intergenic	NA	-2042	NR4A2								
+Interval_138	chr19	48325233	48325472	+	0	NA	promoter-TSS (EMP3)	NA	-20	EMP3								
+Interval_293	chr9	33290236	33290459	+	0	NA	promoter-TSS (NFX1)	NA	-107	NFX1								
+Interval_10	chr1	148280124	148280172	+	0	NA	intron (LOC284561, intron 1 of 1)	NA	880	LOC284561								
+Interval_30	chr10	40131303	40131570	+	0	NA	Intergenic	NA	1434840	ACTR3BP5								
+Interval_295	chr9	91100245	91100394	+	0	NA	Intergenic	NA	18709	LOC100507103								
+Interval_330	chrY	56728011	56728164	+	0	NA	Intergenic	NA	-226222	SPRY3-2								
+Interval_41	chr11	20612048	20612215	+	0	NA	intron (SLC6A5, intron 4 of 14)	NA	12731	SLC6A5								
+Interval_219	chr5	81851897	81852096	+	0	NA	Intergenic	NA	-100743	SSBP2								
+Interval_228	chr6	25006639	25006919	+	0	NA	intron (FAM65B, intron 1 of 21)	NA	29365	LOC102724765								
+Interval_251	chr7	41700729	41700900	+	0	NA	intron (INHBA, intron 1 of 2)	NA	2294	INHBA								
+Interval_99	chr17	27529294	27529446	+	0	NA	intron (KSR1, intron 2 of 21)	NA	72905	KSR1								
+Interval_100	chr17	36090133	36090493	+	0	NA	promoter-TSS (CCL3)	NA	-153	CCL3								
+Interval_191	chr3	16912640	16912735	+	0	NA	intron (PLCL2, intron 1 of 5)	NA	13678	PLCL2								
+Interval_139	chr19	52028580	52028754	+	0	NA	promoter-TSS (ZNF614)	NA	-240	ZNF614								
+Interval_73	chr14	49857506	49857674	+	0	NA	Intergenic	NA	5259	RN7SL2								
+Interval_117	chr19	1592728	1592931	+	0	NA	promoter-TSS (MBD3)	NA	-68	MBD3								
+Interval_221	chr5	137754519	137754751	+	0	NA	promoter-TSS (HNRNPA0)	NA	-285	HNRNPA0								
+Interval_263	chr8	22396579	22396702	+	0	NA	intron (SLC39A14, intron 2 of 9)	NA	29358	SLC39A14								
+Interval_19	chr1	181131395	181131556	+	0	NA	Intergenic	NA	42973	IER5								
+Interval_324	chrX	2145999	2146220	+	0	NA	Intergenic	NA	-182619	LOC101928070								
+Interval_159	chr2	156342471	156342639	+	0	NA	Intergenic	NA	-9835	NR4A2								
+Interval_232	chr6	37698229	37698447	+	0	NA	promoter-TSS (MDGA1)	NA	-1302	MDGA1								
+Interval_69	chr14	22457132	22457294	+	0	NA	intron (LOC102724753, intron 1 of 2)	NA	21681	LOC102724753								
+Interval_143	chr2	42118213	42118619	+	0	NA	Intergenic	NA	-50942	EML4								
+Interval_175	chr20	12172348	12172497	+	0	NA	Intergenic	NA	254557	BTBD3								
+Interval_34	chr10	93390766	93390967	+	0	NA	intron (MYOF, intron 16 of 53)	NA	91451	MYOF								
+Interval_211	chr4	49711486	49711560	+	0	NA	Intergenic	NA	-222199	LOC101060532								
+Interval_192	chr3	18512106	18512359	+	0	NA	Intergenic	NA	-14160	LOC101927777								
+Interval_154	chr2	96533599	96533833	+	0	NA	Intergenic	NA	-3011	ARID5A								
+Interval_16	chr1	165666193	165666435	+	0	NA	intron (ALDH9A1, intron 9 of 10)	NA	32349	ALDH9A1								
+Interval_205	chr3	171851039	171851273	+	0	NA	intron (TMEM212, intron 1 of 4)	NA	7807	TMEM212								
+Interval_94	chr16	73086246	73086424	+	0	NA	Intergenic	NA	-6014	HCCAT5								
+Interval_4	chr1	72585091	72585168	+	0	NA	Intergenic	NA	-190142	RP11-262K1.1								
+Interval_193	chr3	28308302	28308538	+	0	NA	intron (CMC1, intron 5 of 6)	NA	-40528	ZCWPW2								
+Interval_72	chr14	42523803	42523955	+	0	NA	Intergenic	NA	916318	LRFN5								
+Interval_311	chrM	8512	8726	+	0	NA	TTS (TRNK)	NA	324	TRNK								
+Interval_271	chr8	60852014	60852248	+	0	NA	exon (CHD7, exon 18 of 27)	NA	-32855	LOC101929576								
+Interval_144	chr2	43046757	43046837	+	0	NA	Intergenic	NA	-7250	LOC102723854								
+Interval_220	chr5	93581741	93581821	+	0	NA	promoter-TSS (NR2F1-AS1)	NA	-461	NR2F1-AS1								
+Interval_282	chr8	104864821	104864879	+	0	NA	Intergenic	NA	-275826	LRP12								
+Interval_93	chr16	69565750	69566051	+	0	NA	promoter-TSS (NFAT5)	NA	-70	MIR1538								
+Interval_12	chr1	156126296	156126453	+	0	NA	intron (LMNA, intron 1 of 12)	NA	-23570	SEMA4A								
+Interval_57	chr12	52036834	52037176	+	0	NA	promoter-TSS (NR4A1)	NA	-628	NR4A1								
+Interval_110	chr18	10593689	10593877	+	0	NA	Intergenic	NA	-7511	LOC101927376								
+Interval_216	chr4	155676094	155676323	+	0	NA	intron (GUCY1A3, intron 3 of 10)	NA	9210	GUCY1A3								
+Interval_157	chr2	119352498	119352691	+	0	NA	intron (C2orf76, intron 1 of 6)	NA	-12238	C2orf76								
+Interval_116	chr18	68439091	68439286	+	0	NA	Intergenic	NA	276110	TMX3								
+Interval_176	chr20	18513325	18513508	+	0	NA	intron (SEC23B, intron 3 of 19)	NA	5872	SEC23B								
+Interval_256	chr7	87474517	87474666	+	0	NA	intron (ABCB4, intron 2 of 26)	NA	1112	ABCB4								
+Interval_172	chr20	6700994	6701240	+	0	NA	Intergenic	NA	-66981	BMP2								
+Interval_70	chr14	32938334	32938686	+	0	NA	promoter-TSS (NPAS3)	NA	3601	NPAS3								
+Interval_113	chr18	32042370	32042685	+	0	NA	intron (RNF125, intron 3 of 5)	NA	24045	RNF125								
+Interval_21	chr1	184946149	184946387	+	0	NA	intron (FAM129A, intron 1 of 13)	NA	28318	FAM129A								
+Interval_284	chr8	120868901	120869050	+	0	NA	Intergenic	NA	-55919	SNTB1								
+Interval_23	chr1	212234765	212234930	+	0	NA	promoter-TSS (RP11-15I11.3)	NA	-195	RP11-15I11.3								
+Interval_64	chr13	28468081	28468309	+	0	NA	intron (FLT1, intron 1 of 11)	NA	26933	FLT1								
+Interval_36	chr10	108894550	108894723	+	0	NA	Intergenic	NA	1028917	XPNPEP1								
+Interval_235	chr6	61322904	61323192	+	0	NA	Intergenic	NA	-251055	MTRNR2L9								
+Interval_178	chr20	33262304	33262442	+	0	NA	Intergenic	NA	-20762	BPIFB1								
+Interval_161	chr2	187982772	187983012	+	0	NA	Intergenic	NA	-308777	GULP1								
+Interval_201	chr3	127729658	127729721	+	0	NA	intron (MGLL, intron 3 of 6)	NA	6663	MGLL								
+Interval_262	chr8	22396387	22396435	+	0	NA	intron (SLC39A14, intron 2 of 9)	NA	29129	SLC39A14								
+Interval_253	chr7	71442559	71442734	+	0	NA	intron (WBSCR17, intron 5 of 10)	NA	-134938	MIR3914-1								
+Interval_269	chr8	42051831	42052326	+	0	NA	promoter-TSS (KAT6A)	NA	-91	KAT6A								
+Interval_26	chr1	236185767	236186006	+	0	NA	intron (GPR137B, intron 5 of 5)	NA	43354	GPR137B								
+Interval_33	chr10	62632546	62632713	+	0	NA	intron (ZNF365, intron 5 of 7)	NA	-172127	ADO								
+Interval_304	chrM	1700	1896	+	0	NA	TTS (RNR1)	NA	127	RNR2								
+Interval_166	chr2	219279101	219279428	+	0	NA	promoter-TSS (DNAJB2)	NA	-54	DNAJB2								
+Interval_122	chr19	8650219	8650368	+	0	NA	Intergenic	NA	48537	ACTL9								
+Interval_18	chr1	181023131	181023326	+	0	NA	promoter-TSS (STX6)	NA	-311	STX6								
+Interval_289	chr8	141203286	141203355	+	0	NA	Intergenic	NA	25254	SLC45A4								
+Interval_288	chr8	140233584	140233645	+	0	NA	intron (TRAPPC9, intron 16 of 22)	NA	224965	TRAPPC9								
+Interval_319	chrUn_KI270467v1	2089	2629	+	0	NA	NA	NA	NA	NA								
+Interval_177	chr20	23334286	23334465	+	0	NA	Intergenic	NA	-16361	NXT1								
+Interval_213	chr4	123588832	123589041	+	0	NA	Intergenic	NA	-63849	LINC01091								
+Interval_111	chr18	11916963	11917185	+	0	NA	Intergenic	NA	-8277	MPPE1								
+Interval_77	chr14	93074108	93074271	+	0	NA	intron (ITPK1, intron 3 of 10)	NA	6737	ITPK1-AS1								
+Interval_121	chr19	2723268	2723382	+	0	NA	Intergenic	NA	-1933	DIRAS1								
+Interval_13	chr1	161097532	161097690	+	0	NA	promoter-TSS (KLHDC9)	NA	-780	KLHDC9								
+Interval_298	chr9	110282517	110282703	+	0	NA	Intergenic	NA	-25970	TXN								
+Interval_106	chr17	50950705	50950910	+	0	NA	Intergenic	NA	84128	TOB1-AS1								
+Interval_268	chr8	37822441	37822590	+	0	NA	intron (GPR124, intron 2 of 15)	NA	25295	GPR124								
+Interval_22	chr1	207823855	207824137	+	0	NA	promoter-TSS (LOC101929385)	NA	-1293	LOC101929385								
+Interval_147	chr2	60468743	60468800	+	0	NA	exon (BCL11A, exon 3 of 5)	NA	58924	LOC102724155								
+Interval_174	chr20	12053333	12053603	+	0	NA	Intergenic	NA	135603	BTBD3								
+Interval_114	chr18	51361520	51361699	+	0	NA	Intergenic	NA	-30433	RP11-267C16.1								
+Interval_54	chr12	48972553	48972807	+	0	NA	promoter-TSS (WNT10B)	NA	-822	WNT10B								
+Interval_8	chr1	109816410	109816807	+	0	NA	Intergenic	NA	-52586	EPS8L3								
+Interval_155	chr2	100184554	100184703	+	0	NA	Intergenic	NA	-23626	LINC01104								
+Interval_107	chr17	57422808	57423015	+	0	NA	intron (MSI2, intron 6 of 12)	NA	100686	RP11-118E18.2								
+Interval_180	chr20	58907819	58908165	+	0	NA	intron (GNAS, intron 5 of 11)	NA	18702	GNAS								
+Interval_187	chr22	29658284	29658510	+	0	NA	intron (NF2, intron 5 of 14)	NA	54841	NF2								
+Interval_134	chr19	45439846	45440010	+	0	NA	intron (ERCC1, intron 1 of 8)	NA	3274	MIR6088								
+Interval_302	chr9	136240069	136240231	+	0	NA	intron (QSOX2, intron 1 of 11)	NA	5691	QSOX2								
+Interval_129	chr19	40143756	40143918	+	0	NA	Intergenic	NA	-52905	ZNF780A								
+Interval_90	chr16	34902509	34902658	+	0	NA	Intergenic	NA	77261	LOC100505948								
+Interval_224	chr5	171676518	171676705	+	0	NA	Intergenic	NA	-109204	SMIM23								
+Interval_190	chr3	9087928	9088078	+	0	NA	intron (SRGAP3, intron 3 of 21)	NA	-104979	AC037193.1								
+Interval_260	chr8	6291894	6292110	+	0	NA	Intergenic	NA	114546	LOC100287015								
+Interval_244	chr6	167855858	167856070	+	0	NA	intron (MLLT4, intron 1 of 33)	NA	28973	MLLT4								
+Interval_179	chr20	33731944	33732433	+	0	NA	intron (ZNF341, intron 1 of 13)	NA	428	ZNF341								
+Interval_56	chr12	49663130	49663315	+	0	NA	intron (FMNL3, intron 4 of 26)	NA	39445	PRPF40B								
+Interval_290	chr9	2570825	2570974	+	0	NA	intron (VLDLR-AS1, intron 1 of 3)	NA	-48956	LOC101930048								
+Interval_264	chr8	22705030	22705288	+	0	NA	Intergenic	NA	-12770	EGR3								
+Interval_240	chr6	148657091	148657329	+	0	NA	Intergenic	NA	-89718	UST								
+Interval_279	chr8	81842425	81842654	+	0	NA	promoter-TSS (SNX16)	NA	-253	SNX16								
+Interval_86	chr15	101199748	101200005	+	0	NA	intron (CHSY1, intron 2 of 2)	NA	-11753	CHSY1								
+Interval_76	chr14	75287774	75288004	+	0	NA	Intergenic	NA	-6515	RP11-293M10.5								
+Interval_119	chr19	2495376	2495634	+	0	NA	Intergenic	NA	18066	LOC101929097								
+Interval_202	chr3	138609382	138609745	+	0	NA	intron (FAIM, intron 1 of 4)	NA	863	FAIM								
+Interval_63	chr13	24270915	24271056	+	0	NA	intron (SPATA13, intron 1 of 8)	NA	298	SPATA13								
+Interval_233	chr6	45681988	45682234	+	0	NA	Intergenic	NA	-304060	SUPT3H								
+Interval_286	chr8	128239095	128239451	+	0	NA	Intergenic	NA	89157	MIR1208								
+Interval_44	chr11	65472192	65472389	+	0	NA	Intergenic	NA	17452	LOC101927789								
+Interval_210	chr4	49709929	49710035	+	0	NA	Intergenic	NA	-220658	LOC101060532								
+Interval_53	chr12	46125238	46125433	+	0	NA	Intergenic	NA	-134717	SCAF11								
+Interval_46	chr11	76626899	76627144	+	0	NA	promoter-TSS (LOC101928813)	NA	-187	LOC101928813								
+Interval_136	chr19	47226048	47226442	+	0	NA	promoter-TSS (MIR3190)	NA	-697	MIR3190								
+Interval_60	chr12	108047169	108047428	+	0	NA	Intergenic	NA	-84433	WSCD2								
+Interval_101	chr17	36196826	36196988	+	0	NA	promoter-TSS (CCL3L3)	NA	-159	CCL3L3								
+Interval_165	chr2	207166194	207166461	+	0	NA	promoter-TSS (KLF7)	NA	-73	MIR7845								
+Interval_47	chr11	99633090	99633346	+	0	NA	intron (CNTN5, intron 1 of 21)	NA	612242	CNTN5								
+Interval_118	chr19	1895503	1895549	+	0	NA	Intergenic	NA	-9846	ADAT3								
+Interval_27	chr1	241776644	241776793	+	0	NA	intron (WDR64, intron 20 of 26)	NA	-71473	EXO1								
+Interval_277	chr8	79991961	79992060	+	0	NA	intron (MRPS28, intron 2 of 2)	NA	38261	MRPS28								
+Interval_151	chr2	88181094	88181185	+	0	NA	intron (THNSL2, intron 4 of 4)	NA	8000	THNSL2								
+Interval_153	chr2	92081186	92081448	+	0	NA	Intergenic	NA	140184	ACTR3BP2								
+Interval_82	chr15	67024564	67024713	+	0	NA	intron (LOC102723493, intron 2 of 4)	NA	38637	LOC102723493								
+Interval_43	chr11	64215084	64215262	+	0	NA	intron (FERMT3, intron 6 of 14)	NA	8491	FERMT3								
+Interval_39	chr10	132517332	132517528	+	0	NA	Intergenic	NA	5139	LINC01165								
+Interval_231	chr6	37697985	37698168	+	0	NA	promoter-TSS (MDGA1)	NA	-1040	MDGA1								
+Interval_294	chr9	34862182	34862400	+	0	NA	intron (LOC101929761, intron 2 of 3)	NA	-23705	FAM205B								
+Interval_123	chr19	10836523	10836672	+	0	NA	promoter-TSS (TMED1)	NA	-54	C19orf38								
+Interval_305	chrM	2055	2921	+	0	NA	promoter-TSS (TRNL1)	NA	-742	TRNL1								
+Interval_9	chr1	148279942	148280034	+	0	NA	intron (LOC284561, intron 1 of 1)	NA	720	LOC284561								
+Interval_80	chr15	51228508	51228672	+	0	NA	promoter-TSS (CYP19A1)	NA	-13643	MIR4713								
+Interval_115	chr18	57107306	57107460	+	0	NA	Intergenic	NA	-35264	LINC-ROR								
+Interval_171	chr20	373523	373728	+	0	NA	Intergenic	NA	-7039	TRIB3								
+Interval_108	chr17	78413164	78413394	+	0	NA	intron (PGS1, intron 7 of 8)	NA	34625	PGS1								
+Interval_74	chr14	50061028	50061194	+	0	NA	Intergenic	NA	-21227	RP11-58E21.3								
+Interval_301	chr9	136059999	136060198	+	0	NA	intron (NACC2, intron 1 of 5)	NA	35187	NACC2								
+Interval_281	chr8	104864642	104864746	+	0	NA	Intergenic	NA	-275670	LRP12								
+Interval_65	chr13	41916656	41916850	+	0	NA	intron (VWA8, intron 2 of 44)	NA	44332	VWA8								
+Interval_35	chr10	97840142	97840396	+	0	NA	intron (LINC00866, intron 1 of 2)	NA	9529	LINC00866								
+Interval_188	chr22	50276294	50276387	+	0	NA	intron (PLXNB2, intron 36 of 37)	NA	-5990	MAPK11								
+Interval_206	chr3	177335855	177336024	+	0	NA	Intergenic	NA	41497	LINC00501								
+Interval_186	chr22	22928909	22929082	+	0	NA	Intergenic	NA	41215	IGLL5								
+Interval_79	chr15	44288235	44288759	+	0	NA	promoter-TSS (CASC4)	NA	-119	CASC4								
+Interval_195	chr3	40623602	40623859	+	0	NA	Intergenic	NA	98852	ZNF621								
+Interval_327	chrX	80809645	80809938	+	0	NA	promoter-TSS (BRWD3)	NA	-57	BRWD3								
+Interval_149	chr2	83022831	83023008	+	0	NA	Intergenic	NA	166116	LOC1720								
+Interval_314	chrUn_KI270438v1	109442	109617	+	0	NA	NA	NA	NA	NA								
+Interval_275	chr8	68503995	68504144	+	0	NA	intron (C8orf34, intron 5 of 6)	NA	-172578	LOC286189								
+Interval_58	chr12	82358329	82358604	+	0	NA	promoter-TSS (METTL25)	NA	-31	METTL25								
+Interval_278	chr8	81842221	81842348	+	0	NA	promoter-TSS (SNX16)	NA	2	SNX16								
+Interval_291	chr9	3525908	3525958	+	0	NA	promoter-TSS (RFX3)	NA	59	RFX3								
+Interval_234	chr6	46437740	46437929	+	0	NA	intron (RCAN2, intron 2 of 4)	NA	53489	RCAN2								
+Interval_81	chr15	60398891	60399151	+	0	NA	Intergenic	NA	-1035	ANXA2								
+Interval_207	chr3	194824759	194825130	+	0	NA	Intergenic	NA	116523	AC090505.6								
+Interval_91	chr16	46388559	46388812	+	0	NA	Intergenic	NA	180412	ANKRD26P1								
+Interval_141	chr19	54373868	54374038	+	0	NA	Intergenic	NA	-8839	LAIR1								
+Interval_215	chr4	131426451	131426696	+	0	NA	Intergenic	NA	-338464	RP11-614F17.2								
+Interval_92	chr16	46401409	46401628	+	0	NA	Intergenic	NA	167579	ANKRD26P1								
+Interval_49	chr11	129643641	129643844	+	0	NA	Intergenic	NA	-26473	LOC101929557								
+Interval_285	chr8	124703044	124703218	+	0	NA	intron (MTSS1, intron 2 of 12)	NA	25342	MTSS1								
+Interval_236	chr6	67896637	67896812	+	0	NA	Intergenic	NA	-144199	LOC102723883								
+Interval_85	chr15	99565827	99566044	+	0	NA	promoter-TSS (MEF2A)	NA	-28	MEF2A								
+Interval_303	chrM	1	1047	+	0	NA	promoter-TSS (RNR1)	NA	-53	TRNF								
+Interval_127	chr19	39093961	39094131	+	0	NA	intron (PAPL, intron 2 of 12)	NA	9741	PAPL								
+Interval_217	chr5	38831971	38832184	+	0	NA	intron (CTD-2127H9.1, intron 1 of 3)	NA	13752	CTD-2127H9.1								
+Interval_307	chrM	4809	5080	+	0	NA	promoter-TSS (TRNW)	NA	542	TRNM								
+Interval_98	chr17	25788513	25788774	+	0	NA	Intergenic	NA	1505299	MIR4522								
+Interval_6	chr1	97525625	97525709	+	0	NA	intron (DPYD, intron 12 of 20)	NA	-271254	DPYD-AS2								
+Interval_185	chr22	17483976	17484430	+	0	NA	intron (CECR2, intron 2 of 18)	NA	9637	CECR2								
+Interval_67	chr13	110138195	110138360	+	0	NA	promoter-TSS (LOC101927712)	NA	-326	LOC101927712								
+Interval_299	chr9	133564232	133564278	+	0	NA	intron (ADAMTSL2, intron 12 of 18)	NA	29412	ADAMTSL2								
+Interval_61	chr12	118757598	118757663	+	0	NA	Intergenic	NA	-223865	SRRM4								
+Interval_209	chr4	49709729	49709781	+	0	NA	Intergenic	NA	-220431	LOC101060532								
+Interval_230	chr6	36300075	36300171	+	0	NA	intron (PNPLA1, intron 5 of 7)	NA	36762	C6orf222								
+Interval_241	chr6	158869671	158869913	+	0	NA	promoter-TSS (C6orf99)	NA	-12160	OSTCP1								
+Interval_257	chr7	92731795	92731947	+	0	NA	intron (CDK6, intron 2 of 3)	NA	-30057	RNU6-10P								
+Interval_2	chr1	58784018	58784167	+	0	NA	promoter-TSS (JUN)	NA	21	JUN								
+Interval_142	chr2	32485004	32485257	+	0	NA	intron (BIRC6, intron 38 of 72)	NA	-47023	MIR558								
+Interval_312	chrM	9725	16569	+	0	NA	TTS (TRNH)	NA	881	TRNL2								
+Interval_135	chr19	47113305	47113525	+	0	NA	promoter-TSS (ZC3H4)	NA	-1186	ZC3H4								
+Interval_306	chrM	3056	4115	+	0	NA	promoter-TSS (TRNI)	NA	355	TRNL1								
+Interval_15	chr1	163706938	163707151	+	0	NA	Intergenic	NA	-283853	LOC100422212								
+Interval_169	chr2	239222399	239222629	+	0	NA	intron (HDAC4, intron 3 of 26)	NA	-27057	MGC16025								
+Interval_249	chr7	30520708	30520851	+	0	NA	Intergenic	NA	-15938	GGCT								
+Interval_223	chr5	157100427	157100576	+	0	NA	intron (HAVCR2, intron 3 of 6)	NA	8736	HAVCR2								
+Interval_150	chr2	83126240	83126513	+	0	NA	Intergenic	NA	269573	LOC1720								
+Interval_17	chr1	181022900	181023044	+	0	NA	promoter-TSS (STX6)	NA	-55	STX6								
+Interval_309	chrM	6225	6642	+	0	NA	promoter-TSS (TRNN)	NA	-542	TRNY								
+Interval_322	chrUn_KI270467v1	3762	3848	+	0	NA	NA	NA	NA	NA								
+Interval_45	chr11	66418157	66418730	+	0	NA	Intergenic	NA	-2561	NPAS4								
+Interval_131	chr19	40849101	40849149	+	0	NA	intron (CYP2A6, intron 2 of 8)	NA	1322	CYP2A6								
+Interval_266	chr8	32361535	32361771	+	0	NA	intron (NRG1, intron 1 of 4)	NA	-79093	NRG1-IT3								
+Interval_227	chr6	12363671	12363908	+	0	NA	Intergenic	NA	41418	LOC102724414								
+Interval_5	chr1	89692823	89693005	+	0	NA	intron (LRRC8C, intron 2 of 2)	NA	24620	LRRC8C								
+Interval_102	chr17	42388555	42388897	+	0	NA	promoter-TSS (STAT3)	NA	-158	STAT3								
+Interval_196	chr3	40971555	40971861	+	0	NA	Intergenic	NA	-227743	CTNNB1								
+Interval_280	chr8	104361344	104361627	+	0	NA	Intergenic	NA	21689	DCSTAMP								
+Interval_32	chr10	44725429	44725722	+	0	NA	Intergenic	NA	-185741	TMEM72								
+Interval_222	chr5	138753073	138753449	+	0	NA	promoter-TSS (CTNNA1)	NA	122107	LRRTM2								
+Interval_212	chr4	87844128	87844290	+	0	NA	intron (MEPE, intron 4 of 4)	NA	11240	MEPE								
+Interval_273	chr8	66521672	66521795	+	0	NA	Intergenic	NA	28477	C8orf46								
+Interval_28	chr1	245510537	245510638	+	0	NA	intron (KIF26B, intron 4 of 14)	NA	355602	KIF26B								
+Interval_38	chr10	132421600	132421705	+	0	NA	Intergenic	NA	-23558	C10orf91								
+Interval_137	chr19	47849567	47849613	+	0	NA	Intergenic	NA	27748	CRX								
+Interval_170	chr2	239240529	239240698	+	0	NA	intron (HDAC4, intron 2 of 26)	NA	-40860	LOC102723762								
+Interval_320	chrUn_KI270467v1	3062	3262	+	0	NA	NA	NA	NA	NA								
+Interval_225	chr5	178467716	178467911	+	0	NA	intron (COL23A1, intron 2 of 28)	NA	122759	COL23A1								
+Interval_133	chr19	45428757	45429023	+	0	NA	intron (ERCC1, intron 1 of 8)	NA	-7764	MIR6088								
+Interval_245	chr7	6175806	6176011	+	0	NA	intron (CYTH3, intron 5 of 12)	NA	70936	USP42								
+Interval_270	chr8	48521293	48521471	+	0	NA	Intergenic	NA	-30185	RP11-770E5.1								
+Interval_208	chr4	2787348	2787701	+	0	NA	Intergenic	NA	-5499	SH3BP2								
+Interval_199	chr3	56995604	56995661	+	0	NA	intron (ARHGEF3, intron 2 of 12)	NA	55592	ARHGEF3-AS1								
+Interval_323	chrX	1916194	1917202	+	0	NA	Intergenic	NA	321243	ASMT								
+Interval_197	chr3	42072334	42072631	+	0	NA	intron (TRAK1, intron 1 of 16)	NA	-76753	TRAK1								
+Interval_1	chr1	41751304	41751558	+	0	NA	intron (HIVEP3, intron 1 of 8)	NA	-122610	HIVEP3								
+Interval_132	chr19	41121147	41121302	+	0	NA	intron (CYP2F1, intron 3 of 7)	NA	5043	CYP2F1								
+Interval_198	chr3	49412133	49412351	+	0	NA	promoter-TSS (TCTA)	NA	36	TCTA								
+Interval_31	chr10	40556734	40556895	+	0	NA	Intergenic	NA	-1685709	LOC101929373								
+Interval_321	chrUn_KI270467v1	3343	3447	+	0	NA	NA	NA	NA	NA								
