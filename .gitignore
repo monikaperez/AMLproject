@@ -9,6 +9,9 @@ temp/*
 results/*/large/*
 data/*/large/*
 Icon^M
+**/Icon^M
+Icon\\r
+**/Icon\\r
 references
 wikipathway
 data/*/narrowPeak
