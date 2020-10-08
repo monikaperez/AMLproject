@@ -26,3 +26,5 @@ GSEA_
 **/*.hic
 **/*.bw
 **/Icon
+results/Cobinding_ChIP/plots/SOMplots/Icon
+Icon
