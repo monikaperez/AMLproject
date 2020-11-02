@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"terminal.explorerKind": "external"
+		"terminal.explorerKind": "external",
+		"workbench.colorTheme": "Community Material Theme Ocean High Contrast"
 	}
 }
