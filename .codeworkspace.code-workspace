@@ -9,6 +9,10 @@
 	],
 	"settings": {
 		"terminal.explorerKind": "external",
-		"workbench.colorTheme": "Community Material Theme Ocean High Contrast"
+		"workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+		"terminal.integrated.shellArgs.osx": [
+			"screen -Rd 'aml'",
+			"-I"
+		]
 	}
 }
