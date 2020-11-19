@@ -12,7 +12,8 @@
 		"workbench.colorTheme": "Community Material Theme Ocean High Contrast",
 		"terminal.integrated.shellArgs.linux": [
 			"-I",
-		]
+		],
+		"jupyter.jupyterServerType": "remote"
 
 	}
 }
