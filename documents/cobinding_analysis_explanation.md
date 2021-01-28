@@ -1,4 +1,4 @@
-# Cobinging Analysis description:
+# Cobinging Analysis description
 
 ## Recap:
 
@@ -31,14 +31,20 @@ everything is in `Cobinding_ChIP/` (a couple more info in `chromHMM/`, where the
 
 `v3` is the current latest version of the pipeline and data.
 The `merged` file is refering to the cobinding matrix. `.npy` files are file that I use to store some matrices. If you get interested in those I can share them in csv format with you. Otherwise they can by openened with python (`numpy.load()`).
+
 `additionalpeaks/` is a folder that contains bed files of peaks that were newly found for each replicate by my chip replicate merging tool. This is mainly for QC puposes (looking at IGV etc..). But it is a pretty good one.
 `MV411Merged/` is the merged Bed file from my chip replicate merger tool for each protein.
+
 `ROSE/` is the output from calling ROSE onl all our H3K27ac replicates
 `QC/` contaains the latest html QC files from mapping and peak calling on all our ChIP using _multiQC_.
 
-### Plot/ section
+## Plot/ section
 
 Many plots on different paameters (given in the filename)
-`*_somNets/` folder is where is stored the enrichemnt over the nodes of each CRC members. `*_merge_repicate/` folder is where is stored the plot output of my chip repicate merging tool (similarity, correlation, venn overlap, etc..), it contains the _results.txt_ file where the log of the tool is stored (also mainly used for debugging and QC).
-`20`|`50`|`200` are additional parameter number (to the 150 window size parameter), that represents the number of clusters of the clustering algorithm (only on plot where clusters are used)
+`*_somNets/` folder is where is stored the enrichemnt over the nodes of each CRC members. 
+
+`*_merge_repicate/` folder is where is stored the plot output of my chip repicate merging tool (similarity, correlation, venn overlap, etc..), it contains the _results.txt_ file where the log of the tool is stored (also mainly used for debugging and QC).
+
+`20`|`50`|`200` are additional parameter number (to the 150 window size parameter), that represents the number of clusters of the clustering algorithm (only on plot where clusters are used).
+
 `bool` & `zscore scale` can also be found in some filename and express the fact that the cobinding matrix was not scaled regularly (0 to 1) to compute the clusters, but scaled by binarizing it or by zscoring it.
