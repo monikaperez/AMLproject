@@ -1,4 +1,0 @@
-group,replicate,fastq_1,fastq_2,antibody,control
-MV411_MEF2D_NT_SC_63,1,cobindingmore/mp874-MV411_MEF2D_NT_SC_63-FLAG_MEF2D-r2_R1_001.fastq.gz,cobindingmore/mp874-MV411_MEF2D_NT_SC_63-FLAG_MEF2D-r2_R2_001.fastq.gz,FLAG_MEF2D,INPUT
-MV411_MEF2C_NT,1,cobindingmore/mp875-MV411_MEF2C_NT-FLAG_MEF2C-r1_R1_001.fastq.gz, cobindingmore/mp875-MV411_MEF2C_NT-FLAG_MEF2C-r1_R2_001.fastq.gz,FLAG_MEF2C,INPUT
-INPUT,1,ref/mp845-MV411-INPUT-r2_R1.fastq.gz,ref/mp845-MV411-INPUT-r2_R2.fastq.gz,,
