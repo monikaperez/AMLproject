@@ -3,4 +3,4 @@
 	url = https://github.com/Barski-lab/ROSE.git
 [submodule "src/ROSE"]
 	path = src/ROSE
-	url = https://bitbucket.org/young_computation/rose.git
+	url = https://github.com/jkobject/rose.git
