@@ -8,37 +8,39 @@ Notebooks, functions and versions can be found at __jkobject/AMLproject__.
 
 ## differential chipseq
 
-Differential binding of the same protein under two conditions was computed using MACS2 __diffbdgpeak__ mode.
+Differential binding of the same protein under two conditions was computed using __MACS2 diffbdgpeak__ mode.
 Scaling factors were computed using drosophila spike-in. The [chip tracker](https://docs.google.com/spreadsheets/d/1yFLjYB1McU530JnLgL0QIMAKIkVl3kl0_LCHje2gk8U) displays how scaling was computed for each differential chipseq samples.
 
-The scaling values where used to rescale the actual scaling values from diffbdgpeak (see our python function).
+The scaling values where used to rescale the actual scaling values from __diffbdgpeak__ (see our python function).
 Notebooks, functions and versions can be found at __jkobject/AMLproject__.
 
 ## merging replicates
 
 We have had variable amount of chipseq replicates.
-Some of them were described as bad after QC-ing them on our processing pipeline, using multiQC and visual inspection (see annotations in the [chip tracker](https://docs.google.com/spreadsheets/d/1yFLjYB1McU530JnLgL0QIMAKIkVl3kl0_LCHje2gk8U)).
+Some of them were described as bad after QC-ing them on our processing pipeline, using __multiQC__ and visual inspection (see annotations in the [chip tracker](https://docs.google.com/spreadsheets/d/1yFLjYB1McU530JnLgL0QIMAKIkVl3kl0_LCHje2gk8U)).
 
-From these we needed to compute a consensus peak profile for each TFs. We created a tool that computes the best consensus from a set of replicates. Using bad/good annotations, overlap information and recovering/reassessing peaks across replicates using the same algorithm as MACS2's.
+From these we needed to compute a consensus peak profile for each TFs. We created a tool that computes the best consensus from a set of replicates. Using bad/good annotations, overlap information and recovering/reassessing peaks across replicates using the same algorithm as __MACS2__'s.
 
 ## rnaseq analysis
 
-For RNAseq analysis, we used the same pipeline as the one used by CCLE (Cancer Cell Line Encyclopedia): STAR+RSEM, with STAR v2.6.1c, RSEM v1.3.0 and gencode's v29 reference gene regions.
+For RNAseq analysis, we used the same pipeline as the one used by CCLE (Cancer Cell Line Encyclopedia): __STAR__+__RSEM__, with __STAR__ v2.6.1c, __RSEM__ v1.3.0 and __gencode__'s v29 reference gene regions.
 we used hg38 reference genome and regions, enriched with ERCC92's v29 reference
 Notebooks, functions and versions can be found at __jkobject/AMLproject__.
 Results were merged into a dataframe. Genes with no expression or no variance in expression were dropped.
 
 ### scaling factors
 
-Scaling factors were computed using our ERCC spike-in. We used ERCC's R dashboard package to get QC on the spike in. We only scaled samples were ERCC displayed a mean scaling of at least 2x higher the standard error.
+Scaling factors were computed using our __ERCC__ spike-in. We used __ERCC__'s R dashboard package to get QC on the spike in. We only scaled samples were __ERCC__ displayed a mean scaling of at least 2x higher the standard error.
 
 ### differential expression analysis
 
-For differential analysis we used DESeq2 v1.26.0. We defined
+For differential analysis we used __DESeq2__ v1.26.0. We defined a simple formula of ~ Control + Condition. We used __ERCC__ pseudo genes to rescale, by passing them to __DESeq2__'s `run_estimate_size_factors` control_genes parameter.
 
 ## slamseq analysis
 
+slamseq processing was performed by using __slamdunk__, a modified debugged version, that could work on python3, was both single & paired end sequencing. https://github.com/jkobject/slamdunk.com. We then removed genes with either no expression or no variance in both tc count and total count files.
 
+For differential analysis we used __DESeq2__ v1.26.0 on tccounts, taking the total counts as scaling factors. We did so by passing the mean expression of the genes across each experiments to __DESeq2__'s `run_estimate_size_factors` geoMeans parameter. We used __ERCC__ pseudo genes to rescale, by passing them to __DESeq2__'s `run_estimate_size_factors` control_genes parameter
 
 ## motif analysis
 
