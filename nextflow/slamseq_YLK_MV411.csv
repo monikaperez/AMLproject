@@ -1,0 +1,9 @@
+group,condition,control,reads,reads2,name
+MV411,DMSO,1,gs://transfer-amlproject/slamseq_YLK_MV411/mr343-MV411-DMSO-r1_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr343-MV411-DMSO-r1_R2_001.fastq.gz,mr343-MV411-DMSO
+MV411,DMSO,1,gs://transfer-amlproject/slamseq_YLK_MV411/mr344-MV411-DMSO-r2_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr344-MV411-DMSO-r2_R2_001.fastq.gz,mr344-MV411-DMSO
+MV411,DMSO,1,gs://transfer-amlproject/slamseq_YLK_MV411/mr345-MV411-DMSO-r3_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr345-MV411-DMSO-r3_R2_001.fastq.gz,mr345-MV411-DMSO
+MV411,DMSO,1,gs://transfer-amlproject/slamseq_YLK_MV411/mr346-MV411-DMSO-r4_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr346-MV411-DMSO-r4_R2_001.fastq.gz,mr346-MV411-DMSO
+MV411,YLK,0,gs://transfer-amlproject/slamseq_YLK_MV411/mr347-MV411-YLK-r1_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr347-MV411-YLK-r1_R2_001.fastq.gz,mr347-MV411-YLK
+MV411,YLK,0,gs://transfer-amlproject/slamseq_YLK_MV411/mr348-MV411-YLK-r2_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr348-MV411-YLK-r2_R2_001.fastq.gz,mr348-MV411-YLK
+MV411,YLK,0,gs://transfer-amlproject/slamseq_YLK_MV411/mr349-MV411-YLK-r3_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr349-MV411-YLK-r3_R2_001.fastq.gz,mr349-MV411-YLK
+MV411,YLK,0,gs://transfer-amlproject/slamseq_YLK_MV411/mr350-MV411-YLK-r4_R1_001.fastq.gz,gs://transfer-amlproject/slamseq_YLK_MV411/mr350-MV411-YLK-r4_R2_001.fastq.gz,mr350-MV411-YLK

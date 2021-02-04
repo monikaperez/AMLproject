@@ -1,15 +1,15 @@
 {
 	"folders": [
 		{
-			"path": "../JKBio"
+			"path": "."
 		},
 		{
-			"path": "."
+			"path": "../GenepY"
 		}
 	],
 	"settings": {
 		"terminal.explorerKind": "external",
-		"workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+		"workbench.colorTheme": "Community Material Theme Ocean",
 		"terminal.integrated.shellArgs.linux": [
 			"-I",
 		],
