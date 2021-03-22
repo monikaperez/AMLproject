@@ -9,7 +9,7 @@
 	],
 	"settings": {
 		"terminal.explorerKind": "external",
-		"workbench.colorTheme": "Community Material Theme Ocean",
+		"workbench.colorTheme": "Material Theme Lighter High Contrast",
 		"terminal.integrated.shellArgs.linux": [
 			"-I",
 		],
