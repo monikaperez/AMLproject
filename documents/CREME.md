@@ -6,7 +6,7 @@ We built this tool noticing the lack of publicly available simple Chip Merger wo
 
 CREME is part of the [genepy](https://github.com/broadinstitute/GenePy) package.
 
-We will although note tools such as: 
+We will although note tools such as:
 - [PePr](https://pubmed.ncbi.nlm.nih.gov/24894502/) [code](https://github.com/shawnzhangyx/PePr) which can substitute itself from MACS2 by ccalling on mutliple bam files at the same time. It will work by counting reads and looking at the peak shape.
 - [multiGPS](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003501), [code](https://github.com/seqcode/multigps) which is mostly  for differential binding chipseq but can work with replicates and work in java + R. 
 - [MSPC](https://academic.oup.com/bioinformatics/article/31/17/2761/183989), [code](https://github.com/Genometric/MSPC) in .NET, which is very well documented, simple and provide some QC by the user.
