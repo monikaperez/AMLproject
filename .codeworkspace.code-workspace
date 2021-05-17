@@ -13,7 +13,10 @@
 		"terminal.integrated.shellArgs.linux": [
 			"-I",
 		],
-		"jupyter.jupyterServerType": "remote"
+		"jupyter.jupyterServerType": "remote",
+		"editor.tabSize": 2,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false
 
 	}
 }
