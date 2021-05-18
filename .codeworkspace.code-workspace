@@ -15,7 +15,7 @@
 		],
 		"jupyter.jupyterServerType": "remote",
 		"editor.tabSize": 2,
-		"editor.insertSpaces": false,
+		"editor.tabCompletion": "on",
 		"editor.detectIndentation": false
 
 	}
