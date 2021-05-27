@@ -29,7 +29,7 @@ CREME will output, amongst other thing, a dataframe representing a concatenation
 
 A first goal of CREME was to find the best replicate, to do so, it can take manual annotation of bad replicates. These can be provided by visual inspection of bigwig tracks + bed files on IGV, from thresholding on QC results such as FRiP scores.
 
-![plot igv]()
+![plot igv](igv-app-MED1-zoom.png)
 
 Given all available replicates, CREME will compute a conscensus, considering any peaks at most 150 bp from another peak, to be in overlap. We have noticed that changing this parameter from 0 to 150 decreased the total number of peaks found by only 8%.
 
