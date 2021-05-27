@@ -5,7 +5,7 @@
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": false,
 	"python.testing.nosetestsEnabled": true,
-	"editor.insertSpaces": false,
 	"editor.tabSize": 2,
-	"editor.tabCompletion": "on"
+  "editor.tabCompletion": "on",
+  "editor.detectIndentation": false
 }
