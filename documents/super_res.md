@@ -2,7 +2,8 @@
 
 ## input data
 
-The data (available on our github project at: _https://github.com/jkobject/AMLproject/tree/master/data/micro\_Yaser3/_) is the output of the _""_ algorithm _vX_ on our super-resolution microscopy images. Images, as well as the trained algorithm are available at _ded_. To download the algorithm, please visit: _de_. The algorithm has been trained on raw images labelled by hand.
+The data (available on our github project at: _https://github.com/jkobject/AMLproject/tree/master/data/micro\_Yaser3/_) is the output of the _"ZEN"_ algorithm on our super-resolution microscopy images. We used _"ZEN 3.0 Black"_ for image processing (channel alignment, SIM processing and image subsetting) and _ZEN 3.1 Blue_ for segmentation and data formating.
+The segmentation algorithm has been trained on raw images labelled by hand. Images, as well as the trained algorithm are available at _ded_. To download the software, please visit: _https://www.zeiss.com/microscopy/int/products/microscope-software/zen.html#downloads_. More information about the code is available here: _https://github.com/zeiss-microscopy/OAD_.
 
 ## PostProcessing
 
