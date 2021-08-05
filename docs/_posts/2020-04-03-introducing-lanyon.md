@@ -1,38 +1,38 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: Abstract & Introduction
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-### Built on Poole
+A small set of lineage-restricted transcription factors (_TFs_), termed core regulatory circuitry (_CRC_), control cell identity and malignant transformation. Here, we integrated gene dependency, chromatin architecture and TF perturbation datasets to characterize 31 core TFs in acute myeloid leukemia (AML). Contrary to a widely accepted model, we detected a modular CRC structure with hierarchically organized, partially redundant and only sparsely interconnected modules of core TFs controlling distinct genetic programs. Rapid TF degradation followed by measurement of genome-wide transcription rates revealed that core TFs directly regulate dramatically fewer genes than previously assumed. Leukemias carrying KMT2A (MLL) rearrangements depend on the IRF8/MEF2 axis to directly enforce expression of the key oncogenes MYC, HOXA9 and BCL2. Our datasets provide an evolving model of CRC organization in human cells, and a resource for further inquiries into and therapeutic targeting of aberrant transcriptional circuits in cancer.
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+Find out more by reading our Cell paper here: [A distinct core regulatory module enforces oncogene expression in KMT2A-rearranged leukemia]()
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+---
+## Table of Content
 
-### Lanyon features
+### A. Divergent CRCs mark context-specific transcriptional addictions
 
-In addition to the features of Poole, Lanyon adds the following:
+1. plotA
+2. dataB
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
+### B. Synthetic lethality reveals redundancy of co-expressed TF paralogs
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
+1. plotA
+2. dataB
 
-### Browser support
+### C. Synthetic lethality reveals redundancy of co-expressed TF paralogs
 
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+1. plotA
+2. dataB
 
-### Download
+### D. The IRF8/MEF2 axis regulates key oncogenes in KMT2Ar AML
 
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
+1. plotA
+2. dataB
+
+---
+
+_Find out more about the code required to generate this data in [our github]()_
 
 Thanks!
