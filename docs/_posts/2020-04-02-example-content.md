@@ -4,8 +4,13 @@ title: Example content
 ---
 
 
-<>
+<iframe allowfullscreen src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR19rTjSzUTCEB6UUpSmJ3V3bWattKTpu62lQJVQfw2OZ_APVJAH9uR4gRuj5KEFkxtohQ6-dW5kfY7/pubhtml?gid=177277931&amp;single=true&amp;widget=false&amp;headers=true" style="width:100%; height:545px; border-width:0px;"></iframe>
 
+
+<iframe allowfullscreen src="https://igv.org/web/release/2.7.4/embed.html?sessionURL=blob:tVTBbts6EPyVgKcWkEjJki3Lx5dDUjQFCgNtDkURUNKKYiORKknZcQz_e5ayA7.D6wRNahg.7Ix3hkPubskKjJVakQWZ0IymJCAGajCgSiCLLZEVIo1I5ggo3mGNXA8dVxcfrpaXTTJnHvuIYM2t49.WN57uXG8XjNmEVgNvsV7e08GGgJQwprzjj1rxtaWl7pgUK1oYzSuprJNucEC1EUyA0h1YZuH3KDH.0JqjklQVPPx7JfxKVCs3ThdcVX8piAr0WWHszpXSjjuM3DLf.z_s_akCTd2Do.KR7ALS6nKwKFY2JlvMpkEWzYMkn4WzWRDNJ0GaTtGXMyiNrB9b4ja9vxc8wDBeW0C0qcCQRZhHURbn.WSaZmmU5_Eu2JLBtEgW_hS8a3ujf0Hp2GUje1bqAsOVSrBizVkHRkB1IwvDzYYVUqylYF2fReGX72kch9fJ50nGy7tlTBG8leL4RF5g1dp03CFv3_RoOH2DwY6Xlo33.xX4_Wmjdz1Cdv8KPOsFxyfoR.u.6PGj..w94o2T2WvyPU_7Y8Dz9wz4lIdzCb.Sfy7i3Ps_NFxCjU_.4goU2P__DfcXTpwfg_1B3z6zqiwkqnml5zE9rCHA9VhjTwjISlpZyFa6zS1Ceo3jF_tl2ukVL1o0fOAdThJH4ycgDUjRoG8s7H7ungA-" style="width:100%; height:725px; border-width:0px;"></iframe>
+
+
+<iframe allowfullscreen src="images/v3_motifs_150enrichment_correlation.html" style=" width:100%; height:725px; border-width:0px;" onload="resizeIframe(this)"></iframe>
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

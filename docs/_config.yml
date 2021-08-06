@@ -6,6 +6,8 @@ url:                 https://www.jkobject.com
 baseurl:             '/AMLproject/'
 paginate:            5
 permalink:           pretty
+paper: https://cell.com
+githubrepo: https://github.com/jkobject/AMLproject/
 
 # About/contact
 author:
