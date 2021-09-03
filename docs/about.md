@@ -4,26 +4,22 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! If you are interested in joining our Lab: please send us an email: maxim.pimkin (@at@) gmail . com
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+We work on Cancer and Functional Genomics. We look at the impact of the disruption of the transcriptional machinery and regulatory circuitry in Leukemia.
 
-There are currently two themes built on Poole:
+We are based at:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+- the [BroadInstitute of MIT and Harvard]()
+- the [Dana Farber Cancer Institute]()
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Website:
 
-## Setup
+this page was made with __Poole__. Learn more and contribute on [GitHub](https://github.com/poole).
 
-Some fun facts about the setup of this project include:
+Poole uses[Jekyll](https://jekyllrb.com) and is developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/jkobject/AMLproject) or send us an email!
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thanks!
