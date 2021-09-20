@@ -6,12 +6,14 @@
 data/mapped
 data/seqs
 data/bigwig
+**/Icon^M^M
 data/reference
 data/metaseq-example/
 data/pathways
 temp/*
 results/*/large/*
 data/*/large/*
+
 Icon^M
 **/Icon^M
 Icon\\r
@@ -702,4 +704,4 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudio,linux,python,yarn,node
-results/Cobinding_ChIP/v2_simpleMerge_150/Icon
+results/**/Icon
