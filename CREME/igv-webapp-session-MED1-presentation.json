@@ -1,0 +1,99 @@
+{
+	"version": "2.8.4",
+	"showSampleNames": false,
+	"reference": {
+		"id": "hg38",
+		"name": "Human (GRCh38/hg38)",
+		"fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa",
+		"indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg38/hg38.fa.fai",
+		"cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/annotations/cytoBandIdeo.txt.gz",
+		"aliasURL": "https://s3.amazonaws.com/igv.org.genomes/hg38/hg38_alias.tab"
+	},
+	"locus": "chr3:1-198,296,770",
+	"tracks": [
+		{
+			"type": "sequence",
+			"order": -9007199254740991
+		},
+		{
+			"name": "Refseq Genes",
+			"format": "refgene",
+			"url": "https://s3.amazonaws.com/igv.org.genomes/hg38/ncbiRefGene.txt.gz",
+			"indexed": false,
+			"visibilityWindow": -1,
+			"removable": false,
+			"order": 1000000,
+			"type": "annotation"
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v5/bwa/mergedLibrary/bigwig/mp846-MV411_IRF2BP_DMSO_6h-MED1-r4_R1.mLb.clN.bigWig",
+			"name": "mp846-MV411_IRF2BP_DMSO_6h-MED1-r4_R1.mLb.clN.bigWig",
+			"format": "bigwig",
+			"type": "wig",
+			"order": 1000001
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v5/bwa/mergedLibrary/macs/narrowPeak/mp846-MV411_IRF2BP_DMSO_6h-MED1-r4_R1_summits.bed",
+			"name": "mp846-MV411_IRF2BP_DMSO_6h-MED1-r4_R1_summits.bed",
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000002
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v4/bwa/mergedLibrary/bigwig/mp835-MV411_IRF2BP2_DMSO-MED1-r3_R1.mLb.clN.bigWig",
+			"name": "mp835-MV411_IRF2BP2_DMSO-MED1-r3_R1.mLb.clN.bigWig",
+			"format": "bigwig",
+			"type": "wig",
+			"order": 1000003
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v4/bwa/mergedLibrary/macs/narrowPeak/mp835-MV411_IRF2BP2_DMSO-MED1-r3_R1_summits.bed",
+			"name": "mp835-MV411_IRF2BP2_DMSO-MED1-r3_R1_summits.bed",
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000010
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v5/bwa/mergedLibrary/bigwig/mp847-MV411_IRF2BP_DMSO_6h-MED1-r5_R1.mLb.clN.bigWig",
+			"name": "mp847-MV411_IRF2BP_DMSO_6h-MED1-r5_R1.mLb.clN.bigWig",
+			"format": "bigwig",
+			"type": "wig",
+			"order": 1000011
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v5/bwa/mergedLibrary/macs/narrowPeak/mp847-MV411_IRF2BP_DMSO_6h-MED1-r5_R1_summits.bed",
+			"name": "mp847-MV411_IRF2BP_DMSO_6h-MED1-r5_R1_summits.bed",
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000012
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v2/bwa/mergedLibrary/bigwig/mp796-MV411_IRF2BP2_DMSO_MED1-MED1-r2.mLb.clN.bigWig",
+			"name": "mp796-MV411_IRF2BP2_DMSO_MED1-MED1-r2.mLb.clN.bigWig",
+			"format": "bigwig",
+			"type": "wig",
+			"order": 1000013
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v2/bwa/mergedLibrary/macs/narrowPeak/mp796-MV411_IRF2BP2_DMSO_MED1-MED1-r2.bed",
+			"name": "mp796-MV411_IRF2BP2_DMSO_MED1-MED1-r2.bed",
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000014
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v1/bwa/mergedLibrary/bigwig/mp780-MV411_IRF2BP2_DMSO_MED1-MED1-r1.mLb.clN.bigWig",
+			"name": "mp780-MV411_IRF2BP2_DMSO_MED1-MED1-r1.mLb.clN.bigWig",
+			"format": "bigwig",
+			"type": "wig",
+			"order": 1000015
+		},
+		{
+			"url": "gs://amlproject/Chip/IRF2BP2_degraded_v1/bwa/mergedLibrary/macs/narrowPeak/mp780-MV411_IRF2BP2_DMSO_MED1-MED1-r1.bed",
+			"name": "mp780-MV411_IRF2BP2_DMSO_MED1-MED1-r1.bed",
+			"format": "bed",
+			"type": "annotation",
+			"order": 1000016
+		}
+	]
+}
