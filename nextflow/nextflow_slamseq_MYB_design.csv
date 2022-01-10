@@ -1,0 +1,5 @@
+group,condition,control,reads,reads2,name
+MV411-MYB-dTAG,DMSO_1h,1,../../data/nextflow_slamseq_MYB/fastqs/mr359-MV411-MYB-dTAG-DMSO_1h-r1_R1_001.fastq.gz,../../data/nextflow_slamseq_MYB/fastqs/mr359-MV411-MYB-dTAG-DMSO_1h-r1_R2_001.fastq.gz,mr359-MV411-MYB-dTAG-DMSO_1h-r1
+MV411-MYB-dTAG,DMSO_1h,1,../../data/nextflow_slamseq_MYB/fastqs/mr360-MV411-MYB-dTAG-DMSO_1h-r2_R1_001.fastq.gz,../../data/nextflow_slamseq_MYB/fastqs/mr360-MV411-MYB-dTAG-DMSO_1h-r2_R2_001.fastq.gz,mr360-MV411-MYB-dTAG-DMSO_1h-r2
+MV411-MYB-dTAG,VHL_1h,0,../../data/nextflow_slamseq_MYB/fastqs/mr365-MV411-MYB-dTAG-VHL_1h-r1_R1_001.fastq.gz,../../data/nextflow_slamseq_MYB/fastqs/mr365-MV411-MYB-dTAG-VHL_1h-r1_R2_001.fastq.gz,mr365-MV411-MYB-dTAG-VHL_1h-r1
+MV411-MYB-dTAG,VHL_1h,0,../../data/nextflow_slamseq_MYB/fastqs/mr366-MV411-MYB-dTAG-VHL_1h-r2_R1_001.fastq.gz,../../data/nextflow_slamseq_MYB/fastqs/mr366-MV411-MYB-dTAG-VHL_1h-r2_R2_001.fastq.gz,mr366-MV411-MYB-dTAG-VHL_1h-r2
