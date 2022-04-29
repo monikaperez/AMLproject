@@ -1,0 +1,64 @@
+_____________________________________________________
+merging FLAG_MEF2D peaks
+--> finish first overlaps lookup
+-> main rep is: mp760-MV411_MEF2D_NT_SC_63-FLAG_MEF2D
+- mp881-MV411_MEF2D_NT_SC_63_DMSO-FLAG_MEF2D-r3
+  overlap: 46.46995355819299%
+  min,max from newly found peaks: (2.668545583546513, 118.1127293982416)
+ --> enough overlap
+  min,max from newly found peaks: (4.414773074326121, 55.44424937859321)
+  we have recovered 2299 peaks, equal to 10.535239666391714% of the peaks in main replicate
+- mp919-MV411_MEF2D_NT_SC_63-FLAG_MEF2D
+  overlap: 37.242576347516064%
+  min,max from newly found peaks: (0.5075339063756699, 63.01453912699982)
+ --> enough overlap
+  we have recovered 3905 peaks, equal to 17.894785079277792% of the peaks in main replicate
+- mp874-MV411_MEF2D_NT_SC_63-FLAG_MEF2D
+  overlap: 13.721442979781395%
+ --> not enough overlap
+  min,max from newly found peaks: (0.6963493129084187, 670.5849651986114)
+  we did not have enough initial overlap.
+ --> enough overlap
+  we have recovered 5379 peaks, equal to 24.64943634863899% of the peaks in main replicate
+  not enough overlap to advice to merge the bams.
+  oldnew overlap: 18.449271377508936%
+                              new overlap: 18.449271377508936%
+('FLAG_MEF2D', 22608)
+_____________________________________________________
+merging MEF2C peaks
+--> finish first overlaps lookup
+-> main rep is: mp905-MV411_IRF8_NT_DMSO-MEF2C-r1
+- mp887-MV411_MEF2D_NT_SC_63_DMSO-MEF2C-r1
+  overlap: 11.903291692395383%
+ --> not enough overlap
+  not using this replicate from the peakmatrix
+- mp581-MV411-MEF2C
+  overlap: 15.997720039899303%
+ --> not enough overlap
+  min,max from newly found peaks: (0.9276883616896054, 72.70574935646731)
+  we did not have enough initial overlap.
+ --> enough overlap
+  min,max from newly found peaks: (0.49345297001429483, 169.93515721981112)
+  we have recovered 1512 peaks, equal to 7.006162828413882% of the peaks in main replicate
+  enough from small overlap to advice to merge the peaks
+- mp614-MV411-MEF2C
+  overlap: 14.297249798128533%
+ --> not enough overlap
+  min,max from newly found peaks: (6.134014378741286, 75.09572796999112)
+  we did not have enough initial overlap.
+ --> enough overlap
+  we have recovered 1599 peaks, equal to 7.4092952133821415% of the peaks in main replicate
+  enough from small overlap to advice to merge the peaks
+- mp627-MV411-MEF2C
+  overlap: 8.055859022467107%
+ --> not enough overlap
+  min,max from newly found peaks: (6.2634622592137985, 40.24207040070285)
+  we did not have enough initial overlap.
+ --> enough overlap
+  we have recovered 1650 peaks, equal to 7.64561419767388% of the peaks in main replicate
+  enough from small overlap to advice to merge the peaks
+- mp915-MV411_MEF2C_NT-MEF2C
+  overlap: 7.229373485963995%
+ --> not enough overlap
+  not using this replicate from the peakmatrix
+('MEF2C', 21618)
