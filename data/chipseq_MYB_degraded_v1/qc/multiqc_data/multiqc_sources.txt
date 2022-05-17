@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	20220506_MYB-DMSO_MP10046_S110_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYB-DMSO_MP10046_S110_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MED1-VHL_MP10046_S116_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MED1-VHL_MP10046_S116_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MYB-VHL_MP10046_S114_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYB-VHL_MP10046_S114_R1_001_fastqc.zip
+FastQC	all_sections	20220506_MYC-DMSO_MP10046_S111_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYC-DMSO_MP10046_S111_R2_001_fastqc.zip
+FastQC	all_sections	20220506_PolII-VHL_MP10046_S117_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_PolII-VHL_MP10046_S117_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MED1-DMSO_MP10046_S112_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MED1-DMSO_MP10046_S112_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MYC-VHL_MP10046_S115_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYC-VHL_MP10046_S115_R2_001_fastqc.zip
+FastQC	all_sections	20220506_PolII-DMSO_MP10046_S113_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_PolII-DMSO_MP10046_S113_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MYC-DMSO_MP10046_S111_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYC-DMSO_MP10046_S111_R1_001_fastqc.zip
+FastQC	all_sections	20220506_MYB-VHL_MP10046_S114_R2_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYB-VHL_MP10046_S114_R2_001_fastqc.zip
+FastQC	all_sections	20220506_MYB-DMSO_MP10046_S110_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYB-DMSO_MP10046_S110_R1_001_fastqc.zip
+FastQC	all_sections	20220506_MED1-VHL_MP10046_S116_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MED1-VHL_MP10046_S116_R1_001_fastqc.zip
+FastQC	all_sections	20220506_PolII-DMSO_MP10046_S113_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_PolII-DMSO_MP10046_S113_R1_001_fastqc.zip
+FastQC	all_sections	20220506_PolII-VHL_MP10046_S117_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_PolII-VHL_MP10046_S117_R1_001_fastqc.zip
+FastQC	all_sections	20220506_MED1-DMSO_MP10046_S112_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MED1-DMSO_MP10046_S112_R1_001_fastqc.zip
+FastQC	all_sections	20220506_MYC-VHL_MP10046_S115_R1_001	/zfs/cores/mbcfdata/mbcf-seq/TempTransfer/NovaSeq/220506_MP10046_fastq/Reports/20220506_MYC-VHL_MP10046_S115_R1_001_fastqc.zip
