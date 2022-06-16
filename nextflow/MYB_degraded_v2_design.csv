@@ -1,0 +1,10 @@
+group,replicate,fastq_1,fastq_2,antibody,control
+MV411_MYB_DMSO-MYB,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp998-MV411_MYB_DMSO-MYB-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp998-MV411_MYB_DMSO-MYB-r2_R2_001.fastq.gz,MYB,INPUT
+MV411_MYB_DMSO-MYC,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp999-MV411_MYB_DMSO-MYC-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp999-MV411_MYB_DMSO-MYC-r2_R2_001.fastq.gz,MYC,INPUT
+MV411_MYB_DMSO-MED1,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1000-MV411_MYB_DMSO-MED1-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1000-MV411_MYB_DMSO-MED1-r2_R2_001.fastq.gz,MED1,INPUT
+MV411_MYB_DMSO-POLII_total,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1001-MV411_MYB_DMSO-POLII_total-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1001-MV411_MYB_DMSO-POLII_total-r2_R2_001.fastq.gz,POLII_total,INPUT
+MV411_MYB_VHL-MYB,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1002-MV411_MYB_VHL-MYB-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1002-MV411_MYB_VHL-MYB-r2_R2_001.fastq.gz,MYB,INPUT
+MV411_MYB_VHL-MYC,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1003-MV411_MYB_VHL-MYC-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1003-MV411_MYB_VHL-MYC-r2_R2_001.fastq.gz,MYC,INPUT
+MV411_MYB_VHL-MED1,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1004-MV411_MYB_VHL-MED1-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1004-MV411_MYB_VHL-MED1-r2_R2_001.fastq.gz,MED1,INPUT
+MV411_MYB_VHL-POLII_total,1,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1005-MV411_MYB_VHL-POLII_total-r2_R1_001.fastq.gz,gs://amlproject/Chip/MYB_degraded_v2/fastqs/mp1005-MV411_MYB_VHL-POLII_total-r2_R2_001.fastq.gz,POLII_total,INPUT
+INPUT,1,gs://amlproject/Chip/fastqs/paired_end/mp845-MV411-INPUT-r2_R1.fastq.gz,gs://amlproject/Chip/fastqs/paired_end/mp845-MV411-INPUT-r2_R2.fastq.gz,,
